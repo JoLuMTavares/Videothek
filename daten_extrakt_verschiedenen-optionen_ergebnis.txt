@@ -1,0 +1,39 @@
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id AND k
+unde.id = rechnung.id" > c:\xampp\htdocs\dsql\videothek\mahn_rech.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id A
+ND kunde.id = rechnung.id;" > c:\xampp\htdocs\dsql\videothek\mahn_rech.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ titel,jahr, regisseure, laenge FROM filmen JOIN platten WHERE filmen.id = platt
+en.filme_id AND platten.miete_status = 'available'" > c:\xampp\htdocs\dsql\video
+thek\freifilmen.xml
+
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN plat
+te_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte
+_id ORDER BY platte_kunde.platte_id DESC LIMIT 10" > c:\xampp\htdocs\dsql\videot
+hek\beste.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN
+platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.pl
+atte_id ORDER BY platte_kunde.platte_id DESC LIMIT 10" > c:\xampp\htdocs\dsql\vi
+deothek\beste.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN plat
+te_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte
+_id ORDER BY platte_kunde.platte_id ASC LIMIT 10" > c:\xampp\htdocs\dsql\videoth
+ek\schlimmste.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN
+platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.pl
+atte_id ORDER BY platte_kunde.platte_id ASC LIMIT 10" > c:\xampp\htdocs\dsql\vid
+eothek\schlimmste.html
+
+C:\Users\J. Tavares>

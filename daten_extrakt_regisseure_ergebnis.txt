@@ -1,0 +1,33 @@
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%'" > c:\xampp\htdocs
+\dsql\videothek\fcoppola.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%'" > c:\xampp\ht
+docs\dsql\videothek\fcoppola.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%'" > c:\xampp\htdocs\ds
+ql\videothek\qtarantino.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%'" > c:\xampp\htdoc
+s\dsql\videothek\qtarantino.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE regisseure LIKE '%Peter Jackson%'" > c:\xampp\htdocs\dsql\v
+ideothek\pjackson.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE regisseure LIKE '%Peter Jackson%'" > c:\xampp\htdocs\ds
+ql\videothek\pjackson.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE regisseure LIKE '%James Cameron%'" > c:\xampp\htdocs\dsql\v
+ideothek\jcameron.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE regisseure LIKE '%James Cameron%'" > c:\xampp\htdocs\ds
+ql\videothek\jcameron.html
+
+C:\Users\J. Tavares>

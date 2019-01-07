@@ -1,0 +1,41 @@
+REM Datenbank und Tabellen anlegen
+
+C:\Users\J. Tavares>projekt_ddl_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe -u root  0<videothek.sql
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Filmen eingeuegt
+
+C:\Users\J. Tavares>projekt_loadInfile_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<load_data_infile.sql
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Schauspieler eingeuegt
+
+C:\Users\J. Tavares>projekt_ldS_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<schauspieler.sql
+
+C:\Users\J. Tavares>
+
+
+REM Daten ueber Genres eingeuegt
+
+C:\Users\J. Tavares>projekt_ldG_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<genres.sql
+
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Regisseure eingeuegt
+
+C:\Users\J. Tavares>projekt_ldR_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<load_reg.sql
+
+C:\Users\J. Tavares>

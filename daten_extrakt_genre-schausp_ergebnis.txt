@@ -1,0 +1,41 @@
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Freema
+n%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\morganf.xm
+l
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Fr
+eeman%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\morgan
+f.html
+
+
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Kevin Spacey%
+' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\kevins.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Kevin Spa
+cey%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\kevins.h
+tml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spacey%
+' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\kevins2.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spa
+cey%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\kevins2.
+html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Action%' AND schauspieler LIKE '%Arnold Schwa
+rzenegger%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothek\ar
+nold.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Action%' AND schauspieler LIKE '%Arnold S
+chwarzenegger%' AND jahr > 1990 AND jahr < 2000" > c:\xampp\htdocs\dsql\videothe
+k\arnold.html
+
+C:\Users\J. Tavares>

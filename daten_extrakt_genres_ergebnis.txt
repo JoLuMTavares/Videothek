@@ -1,0 +1,49 @@
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Comedy%'" > c:\xampp\htdocs\dsql\videothek\co
+medy.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Comedy%'" > c:\xampp\htdocs\dsql\videothe
+k\comedy.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Drama%'" > c:\xampp\htdocs\dsql\videothek\dra
+ma.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Drama%'" > c:\xampp\htdocs\dsql\videothek
+\drama.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Action%'" > c:\xampp\htdocs\dsql\videothek\ac
+tion.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Action%'" > c:\xampp\htdocs\dsql\videothe
+k\action.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Adventure%'" > c:\xampp\htdocs\dsql\videothek
+\adventure.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Adventure%'" > c:\xampp\htdocs\dsql\video
+thek\adventure.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%War%'" > c:\xampp\htdocs\dsql\videothek\war.x
+ml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%War%'" > c:\xampp\htdocs\dsql\videothek\w
+ar.html
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+ * FROM filmen WHERE genres LIKE '%Crime%'" > c:\xampp\htdocs\dsql\videothek\cri
+me.xml
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+LECT * FROM filmen WHERE genres LIKE '%Crime%'" > c:\xampp\htdocs\dsql\videothek
+\crime.html
+
+C:\Users\J. Tavares>

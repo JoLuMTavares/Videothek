@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="css/regisseur.css"/>		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!--<script src="script/templates.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Videothek Webseite</title>
+		
+	</head>
+	<body>
+		<header>
+			<h1>Videothek</h1>
+			<img src="bilder/seven_maxres.jpg"></img>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="dokumentation.html">Vorstellung</a>
+				<a href="allefilmen.html">Alle Filmen</a>
+				<a href="genres/genres.html">Genres</a>
+				<a href="regisseure.html">Regisseure</a>
+				<a href="schauspieler.html">Schauspieler</a>
+				<a href="genre_schaus.html">Genre & Schauspieler</a>
+				<a href="extra_info.html">Extra Informationen</a>
+				<a href="bildschirmfoto/ddl_dml_befehle.html">Programmausführung</a>
+			</nav>
+			
+		</header>
+		<div id="inhalt" class="inhalt">
+			<h2>Genre & Schauspieler</h2>
+			<p>
+				Hier gibt es verschiedene seite mit alle filmen von bestimmte Genre und Schauspieler.<br/>
+				Bitte, wählen Sie die rechtige option für das Ergebnis.
+			</p>
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Actionfilme mit Arnold Schwarzenegger</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<ol data-role="listview">
+						  <li>
+							<h5>HTML datei</h5>
+							<iframe height="80%" width="100%" src="genre_schau/arnold.html" style="border:2px solid grey;"></iframe>
+						  </li>
+						  <li>
+							<h5>XML datei</h5>
+							<button type="button" onclick="loadXML('genre_schau/arnold.xml', xmlFile, 'ergebnis1')">Hochladen</button>
+							<div id="ergebnis1"> </div>
+						  </li>
+						</ol>
+					</div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Krimifilme mit Kevin Spacey</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">
+						<ol data-role="listview">
+						  <li>
+							<h5>HTML datei</h5>
+							<iframe height="80%" width="100%" src="genre_schau/kevins.html" style="border:2px solid grey;"></iframe>
+						  </li>
+						  <li>
+							<h5>XML datei</h5>
+							<button type="button" onclick="loadXML('genre_schau/kevins.xml', xmlFile, 'ergebnis2')">Hochladen</button>
+							<div id="ergebnis2"> </div>
+						  </li>
+						</ol>
+					</div>
+				  </div>	
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Dramafilme mit Kevin Spacey</a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+						<ol data-role="listview">
+						  <li>
+							<h5>HTML datei</h5>
+							<iframe height="80%" width="100%" src="genre_schau/kevins2.html" style="border:2px solid grey;"></iframe>
+						  </li>
+						  <li>
+							<h5>XML datei</h5>
+							<button type="button" onclick="loadXML('genre_schau/kevins2.xml', xmlFile, 'ergebnis3')">Hochladen</button>
+							<div id="ergebnis3"> </div>
+						  </li>
+						</ol>
+					</div>
+				  </div>	
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Krimifilme mit Morgan Freeman</a>
+					</h4>
+				  </div>
+				  <div id="collapse4" class="panel-collapse collapse">
+					<div class="panel-body">
+						<ol data-role="listview">
+						  <li>
+							<h5>HTML datei</h5>
+							<iframe height="80%" width="100%" src="genre_schau/morganf.html" style="border:2px solid grey;"></iframe>
+						  </li>
+						  <li>
+							<h5>XML datei</h5>
+							<button type="button" onclick="loadXML('genre_schau/morganf.xml', xmlFile, 'ergebnis4')">Hochladen</button>
+							<div id="ergebnis4"> </div>
+						  </li>
+						</ol>
+					</div>
+				  </div>	
+				</div>
+			</div> 
+		</div>
+		<aside><h2>BESCHREIBUNG</h2>
+			<p id="bschr">
+				Hier gibt es vier beispielen von filmen mit eine Genre und diesen bestimmte schauspieler.<br/> 
+				Wir haben, z.B. zwei Genre mit Kevin Spacey.<br/>
+				Dieser Inhalt kommt innerhalb ein iFrame.
+			</p>
+		</aside>
+		<footer>
+			<br />
+			<a id="fLink" href="kontakt.html">Kontakt</a>
+			<a id="fLink" href="cpright.html">&#169; Copyright</a>
+			<a id="fLink" href="feedback.html">Feedback</a>
+		</footer>
+		<script>
+			/* Diese funktion lädt die xml datei hoch. */
+			function loadXML(url, cFunction, arg) {
+			  var xhttp;
+			  xhttp=new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  cFunction(this, arg);
+				}
+			  };
+			  xhttp.open("GET", url, true);
+			  xhttp.send();
+			}
+			
+			/* Diese funktion legt eine Tabelle mit der xml datei an. */
+			function xmlFile(xml, arg) {
+
+				var a, b, c, d, e, f, g, h, k, l, x, y, i, xmlDoc, txt;
+				var xmlDoc = xml.responseXML;
+				txt = "";
+				//txt += "<link rel='stylesheet' type='text/css' href='css/allefilmen.css'/>";
+				txt = "<table BORDER=1  style='border-style: ridge; background: linear-gradient(-90deg, #FFBF00, brown)'>";
+				txt += "<tr bgcolor='#f44'><th>id</th><th>titel</th><th>jahr</th><th>länge</th><th>genres</th><th>regisseure</th><th>schauspieler</th><th>plot</th><th>sprache</th><th>länder</th><th>plakat_url</th><th>imdbID</th></tr>";
+				a = xmlDoc.getElementsByName("id");
+				b = xmlDoc.getElementsByName("titel");
+				c = xmlDoc.getElementsByName("jahr");
+				d = xmlDoc.getElementsByName("laenge");
+				e = xmlDoc.getElementsByName("genres");
+				f = xmlDoc.getElementsByName("regisseure");
+				g = xmlDoc.getElementsByName("schauspieler");
+				h = xmlDoc.getElementsByName("plot");
+				k = xmlDoc.getElementsByName("sprache");
+				l = xmlDoc.getElementsByName("laender");
+				x = xmlDoc.getElementsByName("plakat_url|");
+				y = xmlDoc.getElementsByName("imdbID");
+				for (i = 0; i< x.length; i++) {
+					txt += "<tr>";
+					txt += "<td>";
+					txt += a[i].childNodes[0].nodeValue;
+					txt += "</td>";
+					txt += "<td>";
+					txt += b[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += c[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += d[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += e[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += f[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += g[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += h[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += k[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += l[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += "<a href='" + x[i].childNodes[0].nodeValue + "' alt='Click to view full sioze image'><img id='tImg' src='" + x[i].childNodes[0].nodeValue + "'></a>";
+					txt += "</td>";	
+					txt += "<td>";
+					txt += y[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "</tr>";
+				}
+				txt += "</table>";
+				document.getElementById(arg).innerHTML += txt;				
+			}
+		</script>
+	</body>
+</html>
