@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="daten.xslt"?>
+<resultset statement="SELECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte_id ORDER BY platte_kunde.platte_id DESC LIMIT 10
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="daten.xsd">
+  <row>
+	<field name="titel">La Haine</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Mathieu Kassovitz&quot;</field>
+	<field name="laenge">98 min</field>
+	<field name="schauspieler">&quot;Abdel Ahmed Ghili;Hubert Kound‚;Sa‹d Taghmaoui;Vincent Cassel&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">The Maltese Falcon</field>
+	<field name="jahr">1941</field>
+	<field name="regisseure">&quot;John Huston&quot;</field>
+	<field name="laenge">100 min</field>
+	<field name="schauspieler">&quot;Gladys George;Humphrey Bogart;Mary Astor;Peter Lorre&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">The Maltese Falcon</field>
+	<field name="jahr">1941</field>
+	<field name="regisseure">&quot;John Huston&quot;</field>
+	<field name="laenge">100 min</field>
+	<field name="schauspieler">&quot;Gladys George;Humphrey Bogart;Mary Astor;Peter Lorre&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Dial M for Murder</field>
+	<field name="jahr">1954</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="laenge">105 min</field>
+	<field name="schauspieler">&quot;Grace Kelly;John Williams;Ray Milland;Robert Cummings&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Blade Runner</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;Ridley Scott&quot;</field>
+	<field name="laenge">117 min</field>
+	<field name="schauspieler">&quot;Edward James Olmos;Harrison Ford;Rutger Hauer;Sean Young&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Blade Runner</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;Ridley Scott&quot;</field>
+	<field name="laenge">117 min</field>
+	<field name="schauspieler">&quot;Edward James Olmos;Harrison Ford;Rutger Hauer;Sean Young&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Blade Runner</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;Ridley Scott&quot;</field>
+	<field name="laenge">117 min</field>
+	<field name="schauspieler">&quot;Edward James Olmos;Harrison Ford;Rutger Hauer;Sean Young&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Blade Runner</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;Ridley Scott&quot;</field>
+	<field name="laenge">117 min</field>
+	<field name="schauspieler">&quot;Edward James Olmos;Harrison Ford;Rutger Hauer;Sean Young&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">The Message</field>
+	<field name="jahr">1976</field>
+	<field name="regisseure">&quot;Moustapha Akkad&quot;</field>
+	<field name="laenge">177 min</field>
+	<field name="schauspieler">&quot;Anthony Quinn;Irene Papas;Johnny Sekka;Michael Ansara&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">The Message</field>
+	<field name="jahr">1976</field>
+	<field name="regisseure">&quot;Moustapha Akkad&quot;</field>
+	<field name="laenge">177 min</field>
+	<field name="schauspieler">&quot;Anthony Quinn;Irene Papas;Johnny Sekka;Michael Ansara&quot;</field>
+  </row>
+</resultset>

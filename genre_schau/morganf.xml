@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="genre_schau.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Freeman%' AND jahr &gt; 1990 AND jahr &lt; 2000
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="genre_schau.xsd">
+  <row>
+	<field name="id">2</field>
+	<field name="titel">The Shawshank Redemption</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">142 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Frank Darabont&quot;</field>
+	<field name="schauspieler">&quot;Bob Gunton;Morgan Freeman;Tim Robbins;William Sadler&quot;</field>
+	<field name="plot">&quot;Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0111161</field>
+  </row>
+
+  <row>
+	<field name="id">18</field>
+	<field name="titel">Se7en</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">127 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="schauspieler">&quot;Andrew Kevin Walker;Daniel Zacapa;Kevin Spacey;Morgan Freeman&quot;</field>
+	<field name="plot">&quot;Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114369</field>
+  </row>
+</resultset>

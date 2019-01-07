@@ -1,0 +1,1 @@
+c:\xampp\mysql\bin\mysql.exe videothek -u root < load_reg.sql

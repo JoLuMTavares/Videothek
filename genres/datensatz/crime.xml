@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="genre.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE genres LIKE '%Crime%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="genre.xsd">
+  <row>
+	<field name="id">1</field>
+	<field name="titel">Memories of Murder</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">132 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Joon-ho Bong&quot;</field>
+	<field name="schauspieler">&quot;Jae-ho Song;Kang-ho Song;Roe-ha Kim;Sang-kyung Kim&quot;</field>
+	<field name="plot">&quot;In 1986, in the province of Gyunggi, in South Korea, a second young and beautiful woman is found dead, raped and tied and gagged with her underwear. Detective Park Doo-Man and Detective Cho...&quot;</field>
+	<field name="sprache">&quot;English;Korean&quot;</field>
+	<field name="laender">&quot;South Korea&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZWYyYTk5ODQtNjFjZi00ZDFlLWEwNGEtNGQwZTdmYWRhNmU3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0353969</field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="titel">The Shawshank Redemption</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">142 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Frank Darabont&quot;</field>
+	<field name="schauspieler">&quot;Bob Gunton;Morgan Freeman;Tim Robbins;William Sadler&quot;</field>
+	<field name="plot">&quot;Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0111161</field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="titel">The Godfather</field>
+	<field name="jahr">1972</field>
+	<field name="laenge">175 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;James Caan;Marlon Brando;Richard S. Castellano&quot;</field>
+	<field name="plot">&quot;The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0068646</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="titel">12 Angry Men</field>
+	<field name="jahr">1957</field>
+	<field name="laenge">96 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Sidney Lumet&quot;</field>
+	<field name="schauspieler">&quot;E.G. Marshall;John Fiedler;Lee J. Cobb;Martin Balsam&quot;</field>
+	<field name="plot">&quot;A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0050083</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="titel">The Dark Knight</field>
+	<field name="jahr">2008</field>
+	<field name="laenge">152 min</field>
+	<field name="genres">&quot;Action;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="schauspieler">&quot;Aaron Eckhart;Christian Bale;Heath Ledger;Michael Caine&quot;</field>
+	<field name="plot">&quot;When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.&quot;</field>
+	<field name="sprache">&quot;English;Mandarin&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0468569</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="titel">The Godfather: Part II</field>
+	<field name="jahr">1974</field>
+	<field name="laenge">202 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;Diane Keaton;Robert De Niro;Robert Duvall&quot;</field>
+	<field name="plot">&quot;The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on the family crime syndicate.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin;Sicilian;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0071562</field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="titel">Pulp Fiction</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">154 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Amanda Plummer;John Travolta;Laura Lovelace;Tim Roth&quot;</field>
+	<field name="plot">&quot;The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.&quot;</field>
+	<field name="sprache">&quot;English;French;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0110912</field>
+  </row>
+
+  <row>
+	<field name="id">18</field>
+	<field name="titel">Se7en</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">127 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="schauspieler">&quot;Andrew Kevin Walker;Daniel Zacapa;Kevin Spacey;Morgan Freeman&quot;</field>
+	<field name="plot">&quot;Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114369</field>
+  </row>
+
+  <row>
+	<field name="id">19</field>
+	<field name="titel">The Silence of the Lambs</field>
+	<field name="jahr">1991</field>
+	<field name="laenge">118 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Jonathan Demme&quot;</field>
+	<field name="schauspieler">&quot;Jodie Foster;Kasi Lemmons;Lawrence A. Bonney;Lawrence T. Wrentz&quot;</field>
+	<field name="plot">&quot;A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0102926</field>
+  </row>
+
+  <row>
+	<field name="id">22</field>
+	<field name="titel">City of God</field>
+	<field name="jahr">2002</field>
+	<field name="laenge">130 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Fernando Meirelles;K tia Lund&quot;</field>
+	<field name="schauspieler">&quot;Alexandre Rodrigues;Douglas Silva;Leandro Firmino;Phellipe Haagensen&quot;</field>
+	<field name="plot">&quot;Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.&quot;</field>
+	<field name="sprache">&quot;Portuguese&quot;</field>
+	<field name="laender">&quot;Brazil;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg</field>
+	<field name="imdbID">tt0317248</field>
+  </row>
+
+  <row>
+	<field name="id">23</field>
+	<field name="titel">L‚on: The Professional</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">110 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Luc Besson&quot;</field>
+	<field name="schauspieler">&quot;Danny Aiello;Gary Oldman;Jean Reno;Natalie Portman&quot;</field>
+	<field name="plot">&quot;Mathilda, a 12-year-old girl, is reluctantly taken in by L‚on, a professional assassin, after her family is murdered. L‚on and Mathilda form an unusual relationship, as she becomes his prot‚g‚e and learns the assassin's trade.&quot;</field>
+	<field name="sprache">&quot;English;French;Italian&quot;</field>
+	<field name="laender">&quot;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjdjMGU3MGYtN2Y5ZC00MTE4LWE4YWQtMTBhMjc3MTk0ZDUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0110413</field>
+  </row>
+
+  <row>
+	<field name="id">24</field>
+	<field name="titel">The Usual Suspects</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">106 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Bryan Singer&quot;</field>
+	<field name="schauspieler">&quot;Benicio Del Toro;Gabriel Byrne;Kevin Pollak;Stephen Baldwin&quot;</field>
+	<field name="plot">&quot;A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which begin when five criminals meet at a seemingly random police lineup.&quot;</field>
+	<field name="sprache">&quot;English;French;Hungarian;Spanish&quot;</field>
+	<field name="laender">&quot;Germany;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMzI1MjI5MDQyOV5BMl5BanBnXkFtZTcwNzE4Mjg3NA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114814</field>
+  </row>
+
+  <row>
+	<field name="id">27</field>
+	<field name="titel">American History X</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">119 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Tony Kaye&quot;</field>
+	<field name="schauspieler">&quot;Beverly D'Angelo;Edward Furlong;Edward Norton;Jennifer Lien&quot;</field>
+	<field name="plot">&quot;A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BY2E2MWU5ZDktOTQ0OS00NGIzLTg4YTgtYjFhNTRlMjA1NzFjL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120586</field>
+  </row>
+
+  <row>
+	<field name="id">31</field>
+	<field name="titel">The Green Mile</field>
+	<field name="jahr">1999</field>
+	<field name="laenge">189 min</field>
+	<field name="genres">&quot;Crime;Drama;Fantasy&quot;</field>
+	<field name="regisseure">&quot;Frank Darabont&quot;</field>
+	<field name="schauspieler">&quot;Bonnie Hunt;David Morse;Michael Clarke Duncan;Tom Hanks&quot;</field>
+	<field name="plot">&quot;The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120689</field>
+  </row>
+
+  <row>
+	<field name="id">39</field>
+	<field name="titel">The Departed</field>
+	<field name="jahr">2006</field>
+	<field name="laenge">151 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="schauspieler">&quot;Jack Nicholson;Leonardo DiCaprio;Mark Wahlberg;Matt Damon&quot;</field>
+	<field name="plot">&quot;An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.&quot;</field>
+	<field name="sprache">&quot;Cantonese;English&quot;</field>
+	<field name="laender">&quot;Hong Kong;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg</field>
+	<field name="imdbID">tt0407887</field>
+  </row>
+
+  <row>
+	<field name="id">57</field>
+	<field name="titel">Once Upon a Time in America</field>
+	<field name="jahr">1984</field>
+	<field name="laenge">229 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Sergio Leone&quot;</field>
+	<field name="schauspieler">&quot;Elizabeth McGovern;James Woods;Joe Pesci;Robert De Niro&quot;</field>
+	<field name="plot">&quot;A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.&quot;</field>
+	<field name="sprache">&quot;English;French;Italian&quot;</field>
+	<field name="laender">&quot;Italy;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0087843</field>
+  </row>
+
+  <row>
+	<field name="id">58</field>
+	<field name="titel">Witness for the Prosecution</field>
+	<field name="jahr">1957</field>
+	<field name="laenge">116 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="schauspieler">&quot;Charles Laughton;Elsa Lanchester;Marlene Dietrich;Tyrone Power&quot;</field>
+	<field name="plot">&quot;A veteran British barrister must defend his client in a murder trial that has surprise after surprise.&quot;</field>
+	<field name="sprache">&quot;English;German&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjgyNTUyNF5BMl5BanBnXkFtZTcwNDQzMDg0Nw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0051201</field>
+  </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="titel">Reservoir Dogs</field>
+	<field name="jahr">1992</field>
+	<field name="laenge">99 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Chris Penn;Harvey Keitel;Michael Madsen;Tim Roth&quot;</field>
+	<field name="plot">&quot;After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNDc0YWFhMmQtOTFhZC00MzViLTlkNjctMWUzYTI2YWFkNzVlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0105236</field>
+  </row>
+
+  <row>
+	<field name="id">66</field>
+	<field name="titel">Taxi Driver</field>
+	<field name="jahr">1976</field>
+	<field name="laenge">113 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="schauspieler">&quot;Diahnne Abbott;Frank Adu;Gino Ardito;Victor Argo&quot;</field>
+	<field name="plot">&quot;A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0075314</field>
+  </row>
+
+  <row>
+	<field name="id">69</field>
+	<field name="titel">Double Indemnity</field>
+	<field name="jahr">1944</field>
+	<field name="laenge">107 min</field>
+	<field name="genres">&quot;Crime;Drama;Film-Noir&quot;</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="schauspieler">&quot;Barbara Stanwyck;Edward G. Robinson;Fred MacMurray;Porter Hall&quot;</field>
+	<field name="plot">&quot;An insurance representative lets himself be talked into a murder/insurance fraud scheme that arouses an insurance investigator's suspicions.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZmRmYmZkZTktZDc5ZC00ZjZmLTg4NWMtYjM3MjcyNTVjNGQ5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0036775</field>
+  </row>
+
+  <row>
+	<field name="id">70</field>
+	<field name="titel">To Kill a Mockingbird</field>
+	<field name="jahr">1962</field>
+	<field name="laenge">129 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Robert Mulligan&quot;</field>
+	<field name="schauspieler">&quot;Frank Overton;Gregory Peck;John Megna;Rosemary Murphy&quot;</field>
+	<field name="plot">&quot;Atticus Finch, a lawyer in the Depression-era South, defends a black man against an undeserved rape charge, and his children against prejudice.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzI1NDY2Nl5BMl5BanBnXkFtZTcwMTcyODc5Mw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0056592</field>
+  </row>
+
+  <row>
+	<field name="id">73</field>
+	<field name="titel">The Sting</field>
+	<field name="jahr">1973</field>
+	<field name="laenge">129 min</field>
+	<field name="genres">&quot;Comedy;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;George Roy Hill&quot;</field>
+	<field name="schauspieler">&quot;Charles Durning;Paul Newman;Robert Redford;Robert Shaw&quot;</field>
+	<field name="plot">&quot;In Chicago in September 1936, a young con man seeking revenge for his murdered partner teams up with a master of the big con to win a fortune from a criminal banker.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MjM1OTAyOV5BMl5BanBnXkFtZTgwMDkwODg4MDE@._V1._CR52,57,915,1388_SX89_AL_.jpg_V1_SX300.jpg</field>
+	<field name="imdbID">tt0070735</field>
+  </row>
+
+  <row>
+	<field name="id">79</field>
+	<field name="titel">A Clockwork Orange</field>
+	<field name="jahr">1971</field>
+	<field name="laenge">136 min</field>
+	<field name="genres">&quot;Crime;Drama;Sci-Fi&quot;</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="schauspieler">&quot;Malcolm McDowell;Michael Bates;Patrick Magee;Warren Clarke&quot;</field>
+	<field name="plot">&quot;In future Britain, Alex DeLarge, a charismatic and psycopath delinquent, who likes to practice crimes and ultra-violence with his gang, is jailed and volunteers for an experimental aversion therapy developed by the government in an effort to solve societ</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0066921</field>
+  </row>
+
+  <row>
+	<field name="id">83</field>
+	<field name="titel">L.A. Confidential</field>
+	<field name="jahr">1997</field>
+	<field name="laenge">138 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Curtis Hanson&quot;</field>
+	<field name="schauspieler">&quot;Guy Pearce;James Cromwell;Kevin Spacey;Russell Crowe&quot;</field>
+	<field name="plot">&quot;As corruption grows in 1950s LA, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMDBlYzAwZDktNzM2MS00YzBlLWI4ODQtZTlkNmMxZDc3NGRkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0119488</field>
+  </row>
+
+  <row>
+	<field name="id">97</field>
+	<field name="titel">Heat</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">170 min</field>
+	<field name="genres">&quot;Action;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Michael Mann&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;Jon Voight;Robert De Niro;Val Kilmer&quot;</field>
+	<field name="plot">&quot;A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNGMwNzUwNjYtZWM5NS00YzMyLWI4NjAtNjM0ZDBiMzE1YWExXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0113277</field>
+  </row>
+
+  <row>
+	<field name="id">108</field>
+	<field name="titel">On the Waterfront</field>
+	<field name="jahr">1954</field>
+	<field name="laenge">108 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Elia Kazan&quot;</field>
+	<field name="schauspieler">&quot;Karl Malden;Lee J. Cobb;Marlon Brando;Rod Steiger&quot;</field>
+	<field name="plot">&quot;An ex-prize fighter turned longshoreman struggles to stand up to his corrupt union bosses.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjFiZDg3MDgtOTdiNC00ZGFiLWIyN2ItNDhkNGI5ZThkOTE3XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0047296</field>
+  </row>
+
+  <row>
+	<field name="id">112</field>
+	<field name="titel">Lock, Stock and Two Smoking Barrels</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">107 min</field>
+	<field name="genres">&quot;Comedy;Crime&quot;</field>
+	<field name="regisseure">&quot;Guy Ritchie&quot;</field>
+	<field name="schauspieler">&quot;Dexter Fletcher;Jason Flemyng;Jason Statham;Nick Moran&quot;</field>
+	<field name="plot">&quot;A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;UK&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120735</field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="titel">The Wolf of Wall Street</field>
+	<field name="jahr">2013</field>
+	<field name="laenge">180 min</field>
+	<field name="genres">&quot;Biography;Comedy;Crime&quot;</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="schauspieler">&quot;Jonah Hill;Leonardo DiCaprio;Margot Robbie;Matthew McConaughey&quot;</field>
+	<field name="plot">&quot;Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0993846</field>
+  </row>
+
+  <row>
+	<field name="id">121</field>
+	<field name="titel">The Bandit</field>
+	<field name="jahr">1996</field>
+	<field name="laenge">128 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Yavuz Turgul&quot;</field>
+	<field name="schauspieler">&quot;Sener Sen;Sermin Hrmeri‡;Ugur Ycel;Yesim Salkim&quot;</field>
+	<field name="plot">&quot;The epic adventures of the legendary Baran the Bandit following his release from prison. After serving 35 years, it is no surprise that the world has changed dramatically. Still, Baran ...&quot;</field>
+	<field name="sprache">&quot;Turkish&quot;</field>
+	<field name="laender">&quot;Bulgaria;France;Turkey&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOGQ4ZjFmYjktOGNkNS00OWYyLWIyZjgtMGJjM2U1ZTA0ZTlhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0116231</field>
+  </row>
+
+  <row>
+	<field name="id">123</field>
+	<field name="titel">A Wednesday</field>
+	<field name="jahr">2008</field>
+	<field name="laenge">104 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Neeraj Pandey&quot;</field>
+	<field name="schauspieler">&quot;Anupam Kher;Deepal Shaw;Jimmy Shergill;Naseeruddin Shah&quot;</field>
+	<field name="plot">&quot;A retiring police officer reminisces about the most astounding day of his career. About a case that was never filed but continues to haunt him in his memories - the case of a man and a Wednesday.&quot;</field>
+	<field name="sprache">&quot;English;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTAzODEzMjE1MTJeQTJeQWpwZ15BbWU3MDE3NjQ5Mzk@._V1_SX300.jpg</field>
+	<field name="imdbID">tt1280558</field>
+  </row>
+
+  <row>
+	<field name="id">124</field>
+	<field name="titel">Dial M for Murder</field>
+	<field name="jahr">1954</field>
+	<field name="laenge">105 min</field>
+	<field name="genres">&quot;Crime;Film-Noir;Thriller&quot;</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="schauspieler">&quot;Grace Kelly;John Williams;Ray Milland;Robert Cummings&quot;</field>
+	<field name="plot">&quot;An ex-tennis pro carries out a plot to murder his wife. When things go wrong, he improvises a brilliant plan B.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNzc4ODk4N15BMl5BanBnXkFtZTcwMDE5ODEwNA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0046912</field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="titel">The Big Lebowski</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">117 min</field>
+	<field name="genres">&quot;Comedy;Crime;Mystery&quot;</field>
+	<field name="regisseure">&quot;Ethan Coen;Joel Coen&quot;</field>
+	<field name="schauspieler">&quot;Jeff Bridges;John Goodman;Julianne Moore;Steve Buscemi&quot;</field>
+	<field name="plot">&quot;&quot;The Dude&quot; Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.&quot;</field>
+	<field name="sprache">&quot;English;German;Hebrew;Spanish&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTFjMjBiYzItNzU5YS00MjdiLWJkOTktNDQ3MTE3ZjY2YTY5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0118715</field>
+  </row>
+
+  <row>
+	<field name="id">134</field>
+	<field name="titel">No Country for Old Men</field>
+	<field name="jahr">2007</field>
+	<field name="laenge">122 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Ethan Coen;Joel Coen&quot;</field>
+	<field name="schauspieler">&quot;Javier Bardem;Josh Brolin;Tommy Lee Jones;Woody Harrelson&quot;</field>
+	<field name="plot">&quot;Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0477348</field>
+  </row>
+
+  <row>
+	<field name="id">135</field>
+	<field name="titel">Cool Hand Luke</field>
+	<field name="jahr">1967</field>
+	<field name="laenge">126 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Stuart Rosenberg&quot;</field>
+	<field name="schauspieler">&quot;George Kennedy;J.D. Cannon;Lou Antonio;Paul Newman&quot;</field>
+	<field name="plot">&quot;A man refuses to conform to life in a rural prison.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOWFlNzZhYmYtYTI5YS00MDQyLWIyNTUtNTRjMWUwNTEzNjA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0061512</field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="titel">Kill Bill: Vol. 1</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">111 min</field>
+	<field name="genres">&quot;Action;Crime;Thriller&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Daryl Hannah;Lucy Liu;Uma Thurman;Vivica A. Fox&quot;</field>
+	<field name="plot">&quot;The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.&quot;</field>
+	<field name="sprache">&quot;English;French;Japanese&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX300.jpg</field>
+	<field name="imdbID">tt0266697</field>
+  </row>
+
+  <row>
+	<field name="id">142</field>
+	<field name="titel">Gone Girl</field>
+	<field name="jahr">2014</field>
+	<field name="laenge">149 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="schauspieler">&quot;Ben Affleck;Neil Patrick Harris;Rosamund Pike;Tyler Perry&quot;</field>
+	<field name="plot">&quot;With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt2267998</field>
+  </row>
+
+  <row>
+	<field name="id">152</field>
+	<field name="titel">The 400 Blows</field>
+	<field name="jahr">1959</field>
+	<field name="laenge">99 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Fran‡ois Truffaut&quot;</field>
+	<field name="schauspieler">&quot;Albert R‚my;Claire Maurier;Guy Decomble;Jean-Pierre L‚aud&quot;</field>
+	<field name="plot">&quot;Moving story of a young boy who, left without attention, delves into a life of petty crime.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYTQ4MjA4NmYtYjRhNi00MTEwLTg0NjgtNjk3ODJlZGU4NjRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0053198</field>
+  </row>
+
+  <row>
+	<field name="id">157</field>
+	<field name="titel">Hera Pheri</field>
+	<field name="jahr">2000</field>
+	<field name="laenge">156 min</field>
+	<field name="genres">&quot;Comedy;Crime;Thriller&quot;</field>
+	<field name="regisseure">&quot;Priyadarshan&quot;</field>
+	<field name="schauspieler">&quot;Akshay Kumar;Paresh Rawal;Sunil Shetty;Tabu&quot;</field>
+	<field name="plot">&quot;Three unemployed men find the answer to all their money problems when they recieve a call from a kidnapper. However, things do not go as planned.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTYwNDdmNmEtOGZhYS00MjRiLWIzOWUtNDQxNzg4ZTVjMGE1XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0242519</field>
+  </row>
+
+  <row>
+	<field name="id">158</field>
+	<field name="titel">Butch Cassidy and the Sundance Kid</field>
+	<field name="jahr">1969</field>
+	<field name="laenge">110 min</field>
+	<field name="genres">&quot;Biography;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;George Roy Hill&quot;</field>
+	<field name="schauspieler">&quot;Katharine Ross;Paul Newman;Robert Redford;Strother Martin&quot;</field>
+	<field name="plot">&quot;Two Western bank/train robbers flee to Bolivia when the law gets too close.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyMTM2NDk5Nl5BMl5BanBnXkFtZTgwNzY1NzEyMDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0064115</field>
+  </row>
+
+  <row>
+	<field name="id">161</field>
+	<field name="titel">The Maltese Falcon</field>
+	<field name="jahr">1941</field>
+	<field name="laenge">100 min</field>
+	<field name="genres">&quot;Crime;Film-Noir;Mystery&quot;</field>
+	<field name="regisseure">&quot;John Huston&quot;</field>
+	<field name="schauspieler">&quot;Gladys George;Humphrey Bogart;Mary Astor;Peter Lorre&quot;</field>
+	<field name="plot">&quot;A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4MDEzOTMwMl5BMl5BanBnXkFtZTgwMTc2NjgyMjE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0033870</field>
+  </row>
+
+  <row>
+	<field name="id">174</field>
+	<field name="titel">Touch of Evil</field>
+	<field name="jahr">1958</field>
+	<field name="laenge">95 min</field>
+	<field name="genres">&quot;Crime;Drama;Film-Noir&quot;</field>
+	<field name="regisseure">&quot;Orson Welles&quot;</field>
+	<field name="schauspieler">&quot;Charlton Heston;Janet Leigh;Joseph Calleia;Orson Welles&quot;</field>
+	<field name="plot">&quot;A stark, perverse story of murder, kidnapping, and police corruption in a Mexican border town.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTBlNGM0MjMtMDBhNi00NGJhLTliOTUtNDdlNjUwMTBkOTE1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0052311</field>
+  </row>
+
+  <row>
+	<field name="id">177</field>
+	<field name="titel">Diabolique</field>
+	<field name="jahr">1955</field>
+	<field name="laenge">117 min</field>
+	<field name="genres">&quot;Crime;Drama;Horror&quot;</field>
+	<field name="regisseure">&quot;Henri-Georges Clouzot&quot;</field>
+	<field name="schauspieler">&quot;Charles Vanel;Paul Meurisse;Simone Signoret;V‚ra Clouzot&quot;</field>
+	<field name="plot">&quot;The wife and mistress of a cruel headmaster conspire to kill him; after the murder is committed, his corpse disappears, and strange events begin to plague the two women.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMGJmNmU5OTAtOTQyYy00MmM3LTk4MzUtMGFiZDYzODdmMmU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0046911</field>
+  </row>
+
+  <row>
+	<field name="id">182</field>
+	<field name="titel">Catch Me If You Can</field>
+	<field name="jahr">2002</field>
+	<field name="laenge">141 min</field>
+	<field name="genres">&quot;Biography;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="schauspieler">&quot;Christopher Walken;Leonardo DiCaprio;Martin Sheen;Tom Hanks&quot;</field>
+	<field name="plot">&quot;The true story of Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;Canada;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_SX300.jpg</field>
+	<field name="imdbID">tt0264464</field>
+  </row>
+
+  <row>
+	<field name="id">189</field>
+	<field name="titel">La Haine</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">98 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Mathieu Kassovitz&quot;</field>
+	<field name="schauspieler">&quot;Abdel Ahmed Ghili;Hubert Kound‚;Sa‹d Taghmaoui;Vincent Cassel&quot;</field>
+	<field name="plot">&quot;24 hours in the lives of three young men in the French suburbs the day after a violent riot.&quot;</field>
+	<field name="sprache">&quot;French&quot;</field>
+	<field name="laender">&quot;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNDNiOTA5YjktY2Q0Ni00ODgzLWE5MWItNGExOWRlYjY2MjBlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0113247</field>
+  </row>
+
+  <row>
+	<field name="id">192</field>
+	<field name="titel">Infernal Affairs</field>
+	<field name="jahr">2002</field>
+	<field name="laenge">101 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Alan Mak;Wai-Keung Lau&quot;</field>
+	<field name="schauspieler">&quot;Andy Lau;Anthony Chau-Sang Wong;Eric Tsang;Tony Leung Chiu-Wai&quot;</field>
+	<field name="plot">&quot;A story between a mole in the police department and an undercover cop. Their objectives are the same: to find out who is the mole, and who is the cop.&quot;</field>
+	<field name="sprache">&quot;Cantonese;English;Thai&quot;</field>
+	<field name="laender">&quot;Hong Kong&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMWJmNzNmYjctMGM5OS00NGIwLTkxOTktNGI4MTdlNTk4MjgwXkEyXkFqcGdeQXVyMjQ1NjEyNzE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0338564</field>
+  </row>
+
+  <row>
+	<field name="id">194</field>
+	<field name="titel">Gangs of Wasseypur</field>
+	<field name="jahr">2012</field>
+	<field name="laenge">320 min</field>
+	<field name="genres">&quot;Action;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Anurag Kashyap&quot;</field>
+	<field name="schauspieler">&quot;Manoj Bajpayee;Nawazuddin Siddiqui;Richa Chadha;Tigmanshu Dhulia&quot;</field>
+	<field name="plot">&quot;A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt1954470</field>
+  </row>
+
+  <row>
+	<field name="id">195</field>
+	<field name="titel">Dog Day Afternoon</field>
+	<field name="jahr">1975</field>
+	<field name="laenge">125 min</field>
+	<field name="genres">&quot;Biography;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Sidney Lumet&quot;</field>
+	<field name="schauspieler">&quot;Beulah Garrick;John Cazale;Penelope Allen;Sully Boyar&quot;</field>
+	<field name="plot">&quot;A man robs a bank to pay for his lover's operation; it turns into a hostage situation and a media circus.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODExZmE2ZWItYTIzOC00MzI1LTgyNTktMDBhNmFhY2Y4OTQ3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0072890</field>
+  </row>
+
+  <row>
+	<field name="id">202</field>
+	<field name="titel">Strangers on a Train</field>
+	<field name="jahr">1951</field>
+	<field name="laenge">101 min</field>
+	<field name="genres">&quot;Crime;Film-Noir;Thriller&quot;</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="schauspieler">&quot;Farley Granger;Leo G. Carroll;Robert Walker;Ruth Roman&quot;</field>
+	<field name="plot">&quot;A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder - a theory that he plans to implement.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNzc5N2ZjNWMtNWVkZi00MzYyLTkxNjYtMzc0NjE0MDFjNGQ0XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0044079</field>
+  </row>
+</resultset>

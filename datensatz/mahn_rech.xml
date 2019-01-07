@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="daten.xslt"?>
+<resultset statement="SELECT * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id AND kunde.id = rechnung.id
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="daten.xsd">
+  <row>
+	<field name="id">3</field>
+	<field name="first_name">John</field>
+	<field name="last_name">Layfield</field>
+	<field name="age">47</field>
+	<field name="street">Warschauerstrasse</field>
+	<field name="hause_number">13</field>
+	<field name="postal_code">10251</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-0000000</field>
+	<field name="mobile">015739333092</field>
+	<field name="email">thejayman@gmail.com</field>
+	<field name="id">1</field>
+	<field name="platte_id">1</field>
+	<field name="kunde_id">3</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">3</field>
+	<field name="platte_id">11</field>
+	<field name="kunde_id">2</field>
+	<field name="ueber_zeit">50</field>
+	<field name="fein">530.00</field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="first_name">John</field>
+	<field name="last_name">Layfield</field>
+	<field name="age">47</field>
+	<field name="street">Warschauerstrasse</field>
+	<field name="hause_number">13</field>
+	<field name="postal_code">10251</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-0000000</field>
+	<field name="mobile">015739333092</field>
+	<field name="email">thejayman@gmail.com</field>
+	<field name="id">2</field>
+	<field name="platte_id">38</field>
+	<field name="kunde_id">3</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">3</field>
+	<field name="platte_id">11</field>
+	<field name="kunde_id">2</field>
+	<field name="ueber_zeit">50</field>
+	<field name="fein">530.00</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="first_name">Akira</field>
+	<field name="last_name">Takeshi</field>
+	<field name="age">33</field>
+	<field name="street">Warschauerstrasse</field>
+	<field name="hause_number">24</field>
+	<field name="postal_code">10251</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-77783902</field>
+	<field name="mobile">0158912135674</field>
+	<field name="email">super.special@gmx.de</field>
+	<field name="id">3</field>
+	<field name="platte_id">5</field>
+	<field name="kunde_id">4</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">4</field>
+	<field name="platte_id">1</field>
+	<field name="kunde_id">4</field>
+	<field name="ueber_zeit">1</field>
+	<field name="fein">5.00</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="first_name">Leonel</field>
+	<field name="last_name">Rico</field>
+	<field name="age">18</field>
+	<field name="street">Alexanderstrasse</field>
+	<field name="hause_number">18</field>
+	<field name="postal_code">13151</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-0000000</field>
+	<field name="mobile">015490112283</field>
+	<field name="email">thebestone23@gmx.de</field>
+	<field name="id">4</field>
+	<field name="platte_id">25</field>
+	<field name="kunde_id">5</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">5</field>
+	<field name="platte_id">25</field>
+	<field name="kunde_id">5</field>
+	<field name="ueber_zeit">2</field>
+	<field name="fein">30.00</field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="first_name">Joana</field>
+	<field name="last_name">Castro</field>
+	<field name="age">30</field>
+	<field name="street">Friedrischstrasse</field>
+	<field name="hause_number">27</field>
+	<field name="postal_code">10151</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-7898133</field>
+	<field name="mobile">015683829102</field>
+	<field name="email">joana.castro@gmx.de</field>
+	<field name="id">5</field>
+	<field name="platte_id">12</field>
+	<field name="kunde_id">2</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">2</field>
+	<field name="platte_id">36</field>
+	<field name="kunde_id">1</field>
+	<field name="ueber_zeit">7</field>
+	<field name="fein">60.00</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="first_name">Leonel</field>
+	<field name="last_name">Rico</field>
+	<field name="age">18</field>
+	<field name="street">Alexanderstrasse</field>
+	<field name="hause_number">18</field>
+	<field name="postal_code">13151</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-0000000</field>
+	<field name="mobile">015490112283</field>
+	<field name="email">thebestone23@gmx.de</field>
+	<field name="id">6</field>
+	<field name="platte_id">16</field>
+	<field name="kunde_id">5</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">5</field>
+	<field name="platte_id">25</field>
+	<field name="kunde_id">5</field>
+	<field name="ueber_zeit">2</field>
+	<field name="fein">30.00</field>
+  </row>
+
+  <row>
+	<field name="id">1</field>
+	<field name="first_name">Mark</field>
+	<field name="last_name">Philips</field>
+	<field name="age">24</field>
+	<field name="street">Juliusstrasse</field>
+	<field name="hause_number">30</field>
+	<field name="postal_code">12051</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-0000000</field>
+	<field name="mobile">015690293847</field>
+	<field name="email">mark.philips@gmx.de</field>
+	<field name="id">7</field>
+	<field name="platte_id">19</field>
+	<field name="kunde_id">1</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">1</field>
+	<field name="platte_id">1</field>
+	<field name="kunde_id">3</field>
+	<field name="ueber_zeit">4</field>
+	<field name="fein">30.00</field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="first_name">Joana</field>
+	<field name="last_name">Castro</field>
+	<field name="age">30</field>
+	<field name="street">Friedrischstrasse</field>
+	<field name="hause_number">27</field>
+	<field name="postal_code">10151</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-7898133</field>
+	<field name="mobile">015683829102</field>
+	<field name="email">joana.castro@gmx.de</field>
+	<field name="id">8</field>
+	<field name="platte_id">23</field>
+	<field name="kunde_id">2</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">2</field>
+	<field name="platte_id">36</field>
+	<field name="kunde_id">1</field>
+	<field name="ueber_zeit">7</field>
+	<field name="fein">60.00</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="first_name">Akira</field>
+	<field name="last_name">Takeshi</field>
+	<field name="age">33</field>
+	<field name="street">Warschauerstrasse</field>
+	<field name="hause_number">24</field>
+	<field name="postal_code">10251</field>
+	<field name="city">Berlin</field>
+	<field name="phone">030-77783902</field>
+	<field name="mobile">0158912135674</field>
+	<field name="email">super.special@gmx.de</field>
+	<field name="id">9</field>
+	<field name="platte_id">40</field>
+	<field name="kunde_id">4</field>
+	<field name="beschreibung">Achtung! Es ist fast seit. Bitte, vergessen sie nicht ihre filme miete.</field>
+	<field name="id">4</field>
+	<field name="platte_id">1</field>
+	<field name="kunde_id">4</field>
+	<field name="ueber_zeit">1</field>
+	<field name="fein">5.00</field>
+  </row>
+</resultset>

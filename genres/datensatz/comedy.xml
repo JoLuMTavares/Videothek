@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="genre.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE genres LIKE '%Comedy%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="genre.xsd">
+  <row>
+	<field name="id">12</field>
+	<field name="titel">Forrest Gump</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">142 min</field>
+	<field name="genres">&quot;Comedy;Drama;Romance&quot;</field>
+	<field name="regisseure">&quot;Robert Zemeckis&quot;</field>
+	<field name="schauspieler">&quot;Michael Conner Humphreys;Rebecca Williams;Sally Field;Tom Hanks&quot;</field>
+	<field name="plot">&quot;Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0109830</field>
+  </row>
+
+  <row>
+	<field name="id">20</field>
+	<field name="titel">Life Is Beautiful</field>
+	<field name="jahr">1997</field>
+	<field name="laenge">116 min</field>
+	<field name="genres">&quot;Comedy;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Roberto Benigni&quot;</field>
+	<field name="schauspieler">&quot;Giorgio Cantarini;Giustino Durano;Nicoletta Braschi;Roberto Benigni&quot;</field>
+	<field name="plot">&quot;When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.&quot;</field>
+	<field name="sprache">&quot;English;German;Italian&quot;</field>
+	<field name="laender">&quot;Italy&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0118799</field>
+  </row>
+
+  <row>
+	<field name="id">32</field>
+	<field name="titel">The Intouchables</field>
+	<field name="jahr">2011</field>
+	<field name="laenge">112 min</field>
+	<field name="genres">&quot;Biography;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Eric Toledano;Olivier Nakache&quot;</field>
+	<field name="schauspieler">&quot;Anne Le Ny;Audrey Fleurot;Fran‡ois Cluzet;Omar Sy&quot;</field>
+	<field name="plot">&quot;After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;France&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt1675434</field>
+  </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="titel">Modern Times</field>
+	<field name="jahr">1936</field>
+	<field name="laenge">87 min</field>
+	<field name="genres">&quot;Comedy;Drama;Family&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Charles Chaplin;Henry Bergman;Paulette Goddard;Tiny Sandford&quot;</field>
+	<field name="plot">&quot;The Tramp struggles to live in modern industrial society with the help of a young homeless woman.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0027977</field>
+  </row>
+
+  <row>
+	<field name="id">37</field>
+	<field name="titel">City Lights</field>
+	<field name="jahr">1931</field>
+	<field name="laenge">87 min</field>
+	<field name="genres">&quot;Comedy;Drama;Romance&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Al Ernest Garcia;Florence Lee;Harry Myers;Virginia Cherrill&quot;</field>
+	<field name="plot">&quot;With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZDRjMmI3ZjgtMGE3Mi00NjY5LTg0NWMtMmU3YzgyMjhmMjIzL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0021749</field>
+  </row>
+
+  <row>
+	<field name="id">38</field>
+	<field name="titel">Back to the Future</field>
+	<field name="jahr">1985</field>
+	<field name="laenge">116 min</field>
+	<field name="genres">&quot;Adventure;Comedy;Sci-Fi&quot;</field>
+	<field name="regisseure">&quot;Robert Zemeckis&quot;</field>
+	<field name="schauspieler">&quot;Christopher Lloyd;Crispin Glover;Lea Thompson;Michael J. Fox&quot;</field>
+	<field name="plot">&quot;Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0088763</field>
+  </row>
+
+  <row>
+	<field name="id">44</field>
+	<field name="titel">Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</field>
+	<field name="jahr">1964</field>
+	<field name="laenge">95 min</field>
+	<field name="genres">&quot;Comedy&quot;</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="schauspieler">&quot;George C. Scott;Keenan Wynn;Peter Sellers;Sterling Hayden&quot;</field>
+	<field name="plot">&quot;An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically try to stop.&quot;</field>
+	<field name="sprache">&quot;English;Russian&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNTkxYjUxNDYtZGY0My00NTc2LThiZmYtNmNmNmU0NGVkZWYwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0057012</field>
+  </row>
+
+  <row>
+	<field name="id">46</field>
+	<field name="titel">The Great Dictator</field>
+	<field name="jahr">1940</field>
+	<field name="laenge">125 min</field>
+	<field name="genres">&quot;Comedy;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Charles Chaplin;Henry Daniell;Jack Oakie;Reginald Gardiner&quot;</field>
+	<field name="plot">&quot;Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.&quot;</field>
+	<field name="sprache">&quot;English;Esperanto&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0032553</field>
+  </row>
+
+  <row>
+	<field name="id">62</field>
+	<field name="titel">La La Land</field>
+	<field name="jahr">2016</field>
+	<field name="laenge">128 min</field>
+	<field name="genres">&quot;Comedy;Drama;Music&quot;</field>
+	<field name="regisseure">&quot;Damien Chazelle&quot;</field>
+	<field name="schauspieler">&quot;Ami‚e Conn;Emma Stone;Ryan Gosling;Terry Walters&quot;</field>
+	<field name="plot">&quot;A jazz pianist falls for an aspiring actress in Los Angeles.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;Hong Kong;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt3783958</field>
+  </row>
+
+  <row>
+	<field name="id">71</field>
+	<field name="titel">Toy Story 3</field>
+	<field name="jahr">2010</field>
+	<field name="laenge">103 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;Lee Unkrich&quot;</field>
+	<field name="schauspieler">&quot;Joan Cusack;Ned Beatty;Tim Allen;Tom Hanks&quot;</field>
+	<field name="plot">&quot;The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0435761</field>
+  </row>
+
+  <row>
+	<field name="id">73</field>
+	<field name="titel">The Sting</field>
+	<field name="jahr">1973</field>
+	<field name="laenge">129 min</field>
+	<field name="genres">&quot;Comedy;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;George Roy Hill&quot;</field>
+	<field name="schauspieler">&quot;Charles Durning;Paul Newman;Robert Redford;Robert Shaw&quot;</field>
+	<field name="plot">&quot;In Chicago in September 1936, a young con man seeking revenge for his murdered partner teams up with a master of the big con to win a fortune from a criminal banker.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MjM1OTAyOV5BMl5BanBnXkFtZTgwMDkwODg4MDE@._V1._CR52,57,915,1388_SX89_AL_.jpg_V1_SX300.jpg</field>
+	<field name="imdbID">tt0070735</field>
+  </row>
+
+  <row>
+	<field name="id">74</field>
+	<field name="titel">Singin' in the Rain</field>
+	<field name="jahr">1952</field>
+	<field name="laenge">103 min</field>
+	<field name="genres">&quot;Comedy;Musical;Romance&quot;</field>
+	<field name="regisseure">&quot;Gene Kelly;Stanley Donen&quot;</field>
+	<field name="schauspieler">&quot;Debbie Reynolds;Donald O'Connor;Gene Kelly;Jean Hagen&quot;</field>
+	<field name="plot">&quot;A silent film production company and cast make a difficult transition to sound.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0045152</field>
+  </row>
+
+  <row>
+	<field name="id">76</field>
+	<field name="titel">Toy Story</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">81 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;John Lasseter&quot;</field>
+	<field name="schauspieler">&quot;Don Rickles;Jim Varney;Tim Allen;Tom Hanks&quot;</field>
+	<field name="plot">&quot;A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114709</field>
+  </row>
+
+  <row>
+	<field name="id">77</field>
+	<field name="titel">The Kid</field>
+	<field name="jahr">1921</field>
+	<field name="laenge">68 min</field>
+	<field name="genres">&quot;Comedy;Drama;Family&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Carl Miller;Charles Chaplin;Edna Purviance;Jackie Coogan&quot;</field>
+	<field name="plot">&quot;The Tramp cares for an abandoned child, but events put that relationship in jeopardy.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0012349</field>
+  </row>
+
+  <row>
+	<field name="id">80</field>
+	<field name="titel">3 Idiots</field>
+	<field name="jahr">2009</field>
+	<field name="laenge">170 min</field>
+	<field name="genres">&quot;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Rajkumar Hirani&quot;</field>
+	<field name="schauspieler">&quot;Aamir Khan;Kareena Kapoor;Madhavan;Sharman Joshi&quot;</field>
+	<field name="plot">&quot;Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them &quot;idiots&quot;.&quot;</field>
+	<field name="sprache">&quot;English;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZWRlNDdkNzItMzhlZC00YTdmLWIwNjktYjY5NjQ1ZmQ3N2FkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt1187043</field>
+  </row>
+
+  <row>
+	<field name="id">81</field>
+	<field name="titel">Monty Python and the Holy Grail</field>
+	<field name="jahr">1975</field>
+	<field name="laenge">91 min</field>
+	<field name="genres">&quot;Adventure;Comedy;Fantasy&quot;</field>
+	<field name="regisseure">&quot;Terry Gilliam;Terry Jones&quot;</field>
+	<field name="schauspieler">&quot;Eric Idle;Graham Chapman;John Cleese;Terry Gilliam&quot;</field>
+	<field name="plot">&quot;King Arthur and his knights embark on a low-budget search for the Grail, encountering many, very silly obstacles.&quot;</field>
+	<field name="sprache">&quot;English;French;Latin&quot;</field>
+	<field name="laender">&quot;UK&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNmNmZjViNTQtNDQ5Mi00MDYzLWI5YWMtNDUyZGNmMGZhNDg4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0071853</field>
+  </row>
+
+  <row>
+	<field name="id">84</field>
+	<field name="titel">The Apartment</field>
+	<field name="jahr">1960</field>
+	<field name="laenge">125 min</field>
+	<field name="genres">&quot;Comedy;Drama;Romance&quot;</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="schauspieler">&quot;Fred MacMurray;Jack Lemmon;Ray Walston;Shirley MacLaine&quot;</field>
+	<field name="plot">&quot;A man tries to rise in his company by letting its executives use his apartment for trysts, but complications and a romance of his own ensue.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BN2YxYmUyZGItZWEzYy00NTA3LThhM2UtZThhNDM5NWYxZGQ1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0053604</field>
+  </row>
+
+  <row>
+	<field name="id">93</field>
+	<field name="titel">Some Like It Hot</field>
+	<field name="jahr">1959</field>
+	<field name="laenge">120 min</field>
+	<field name="genres">&quot;Comedy;Romance&quot;</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="schauspieler">&quot;George Raft;Jack Lemmon;Marilyn Monroe;Tony Curtis&quot;</field>
+	<field name="plot">&quot;When two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0053291</field>
+  </row>
+
+  <row>
+	<field name="id">100</field>
+	<field name="titel">Inside Out</field>
+	<field name="jahr">2015</field>
+	<field name="laenge">95 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;Pete Docter;Ronnie Del Carmen&quot;</field>
+	<field name="schauspieler">&quot;Amy Poehler;Bill Hader;Phyllis Smith;Richard Kind&quot;</field>
+	<field name="plot">&quot;After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt2096673</field>
+  </row>
+
+  <row>
+	<field name="id">103</field>
+	<field name="titel">The Gold Rush</field>
+	<field name="jahr">1925</field>
+	<field name="laenge">95 min</field>
+	<field name="genres">&quot;Adventure;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Charles Chaplin;Henry Bergman;Mack Swain;Tom Murray&quot;</field>
+	<field name="plot">&quot;A prospector goes to the Klondike in search of gold and finds it and more.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZjEyOTE4MzMtNmMzMy00Mzc3LWJlOTQtOGJiNDE0ZmJiOTU4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0015864</field>
+  </row>
+
+  <row>
+	<field name="id">109</field>
+	<field name="titel">Mr. Smith Goes to Washington</field>
+	<field name="jahr">1939</field>
+	<field name="laenge">129 min</field>
+	<field name="genres">&quot;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Frank Capra&quot;</field>
+	<field name="schauspieler">&quot;Claude Rains;Edward Arnold;James Stewart;Jean Arthur&quot;</field>
+	<field name="plot">&quot;A naive man is appointed to fill a vacancy in the United States Senate. His plans promptly collide with political corruption, but he doesn't back down.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTYwYjYxYzgtMDE1Ni00NzU4LWJlMTEtODQ5YmJmMGJhZjI5L2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0031679</field>
+  </row>
+
+  <row>
+	<field name="id">112</field>
+	<field name="titel">Lock, Stock and Two Smoking Barrels</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">107 min</field>
+	<field name="genres">&quot;Comedy;Crime&quot;</field>
+	<field name="regisseure">&quot;Guy Ritchie&quot;</field>
+	<field name="schauspieler">&quot;Dexter Fletcher;Jason Flemyng;Jason Statham;Nick Moran&quot;</field>
+	<field name="plot">&quot;A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;UK&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120735</field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="titel">The Wolf of Wall Street</field>
+	<field name="jahr">2013</field>
+	<field name="laenge">180 min</field>
+	<field name="genres">&quot;Biography;Comedy;Crime&quot;</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="schauspieler">&quot;Jonah Hill;Leonardo DiCaprio;Margot Robbie;Matthew McConaughey&quot;</field>
+	<field name="plot">&quot;Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0993846</field>
+  </row>
+
+  <row>
+	<field name="id">120</field>
+	<field name="titel">The General</field>
+	<field name="jahr">1926</field>
+	<field name="laenge">67 min</field>
+	<field name="genres">&quot;Action;Adventure;Comedy&quot;</field>
+	<field name="regisseure">&quot;Buster Keaton;Clyde Bruckman&quot;</field>
+	<field name="schauspieler">&quot;Buster Keaton;Glen Cavender;Jim Farley;Marion Mack&quot;</field>
+	<field name="plot">&quot;When Union spies steal an engineer's beloved locomotive, he pursues it single-handedly and straight through enemy lines.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODQxMzMyNTY5Nl5BMl5BanBnXkFtZTcwMDMyNTk3OA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0017925</field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="titel">The Big Lebowski</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">117 min</field>
+	<field name="genres">&quot;Comedy;Crime;Mystery&quot;</field>
+	<field name="regisseure">&quot;Ethan Coen;Joel Coen&quot;</field>
+	<field name="schauspieler">&quot;Jeff Bridges;John Goodman;Julianne Moore;Steve Buscemi&quot;</field>
+	<field name="plot">&quot;&quot;The Dude&quot; Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.&quot;</field>
+	<field name="sprache">&quot;English;German;Hebrew;Spanish&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTFjMjBiYzItNzU5YS00MjdiLWJkOTktNDQ3MTE3ZjY2YTY5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0118715</field>
+  </row>
+
+  <row>
+	<field name="id">127</field>
+	<field name="titel">Rang De Basanti</field>
+	<field name="jahr">2006</field>
+	<field name="laenge">157 min</field>
+	<field name="genres">&quot;Comedy;Drama;History&quot;</field>
+	<field name="regisseure">&quot;Rakeysh Omprakash Mehra&quot;</field>
+	<field name="schauspieler">&quot;Aamir Khan;Kunal Kapoor;Sharman Joshi;Siddharth&quot;</field>
+	<field name="plot">&quot;This story is about six friends who help an English filmmaker create a documentary about Indian freedom struggle. During filming, this group of friends learn about those before them and the importance of fighting for their rights.&quot;</field>
+	<field name="sprache">&quot;English;Hindi;Panjabi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwNzA5MjAwN15BMl5BanBnXkFtZTcwMzY5MzIzMQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0405508</field>
+  </row>
+
+  <row>
+	<field name="id">132</field>
+	<field name="titel">Finding Nemo</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">100 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;Andrew Stanton;Lee Unkrich&quot;</field>
+	<field name="schauspieler">&quot;Albert Brooks;Alexander Gould;Ellen DeGeneres;Willem Dafoe&quot;</field>
+	<field name="plot">&quot;After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTAzNWZlNmUtZDEzYi00ZjA5LWIwYjEtZGM1NWE1MjE4YWRhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0266543</field>
+  </row>
+
+  <row>
+	<field name="id">139</field>
+	<field name="titel">Mary and Max</field>
+	<field name="jahr">2009</field>
+	<field name="laenge">92 min</field>
+	<field name="genres">&quot;Animation;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Adam Elliot&quot;</field>
+	<field name="schauspieler">&quot;Barry Humphries;Eric Bana;Philip Seymour Hoffman;Toni Collette&quot;</field>
+	<field name="plot">&quot;A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.&quot;</field>
+	<field name="sprache">&quot;English;Yiddish&quot;</field>
+	<field name="laender">&quot;Australia&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDIyNTA1Nl5BMl5BanBnXkFtZTcwMjc2Njk3OA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0978762</field>
+  </row>
+
+  <row>
+	<field name="id">143</field>
+	<field name="titel">Life of Brian</field>
+	<field name="jahr">1979</field>
+	<field name="laenge">94 min</field>
+	<field name="genres">&quot;Comedy&quot;</field>
+	<field name="regisseure">&quot;Terry Jones&quot;</field>
+	<field name="schauspieler">&quot;Eric Idle;Graham Chapman;John Cleese;Terry Gilliam&quot;</field>
+	<field name="plot">&quot;Brian is born on the original Christmas, in the stable next door. He spends his life being mistaken for a messiah.&quot;</field>
+	<field name="sprache">&quot;English;Latin&quot;</field>
+	<field name="laender">&quot;UK&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMzAwNjU1OTktYjY3Mi00NDY5LWFlZWUtZjhjNGE0OTkwZDkwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0079470</field>
+  </row>
+
+  <row>
+	<field name="id">144</field>
+	<field name="titel">It Happened One Night</field>
+	<field name="jahr">1934</field>
+	<field name="laenge">105 min</field>
+	<field name="genres">&quot;Comedy;Romance&quot;</field>
+	<field name="regisseure">&quot;Frank Capra&quot;</field>
+	<field name="schauspieler">&quot;Clark Gable;Claudette Colbert;Roscoe Karns;Walter Connolly&quot;</field>
+	<field name="plot">&quot;A spoiled heiress running away from her family is helped by a man who is actually a reporter in need of a story.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZmViYmM5OTYtNGQ4Ny00YjQyLThiNjEtYTE4MGZhZTNmZjcyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0025316</field>
+  </row>
+
+  <row>
+	<field name="id">146</field>
+	<field name="titel">Munna Bhai M.B.B.S.</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">156 min</field>
+	<field name="genres">&quot;Comedy;Drama;Romance&quot;</field>
+	<field name="regisseure">&quot;Rajkumar Hirani&quot;</field>
+	<field name="schauspieler">&quot;Arshad Warsi;Gracy Singh;Sanjay Dutt;Sunil Dutt&quot;</field>
+	<field name="plot">&quot;A gangster sets out to fulfill his father's dream of becoming a doctor.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BY2JlMGI1YWQtYjBhMi00NTJiLTgxMzUtMGU4NThlZTAyYmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0374887</field>
+  </row>
+
+  <row>
+	<field name="id">153</field>
+	<field name="titel">Sholay</field>
+	<field name="jahr">1975</field>
+	<field name="laenge">162 min</field>
+	<field name="genres">&quot;Action;Adventure;Comedy&quot;</field>
+	<field name="regisseure">&quot;Ramesh Sippy&quot;</field>
+	<field name="schauspieler">&quot;Amitabh Bachchan;Dharmendra;Hema Malini;Sanjeev Kumar&quot;</field>
+	<field name="plot">&quot;After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOWQ0YTUzYzItYjI0MC00OTZmLWE1MWQtY2EzMzU2MTlmMmJjXkEyXkFqcGdeQXVyMDkwNTkwNg@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0073707</field>
+  </row>
+
+  <row>
+	<field name="id">156</field>
+	<field name="titel">The Grand Budapest Hotel</field>
+	<field name="jahr">2014</field>
+	<field name="laenge">99 min</field>
+	<field name="genres">&quot;Adventure;Comedy;Drama&quot;</field>
+	<field name="regisseure">&quot;Wes Anderson&quot;</field>
+	<field name="schauspieler">&quot;Adrien Brody;F. Murray Abraham;Mathieu Amalric;Ralph Fiennes&quot;</field>
+	<field name="plot">&quot;The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;Germany;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt2278388</field>
+  </row>
+
+  <row>
+	<field name="id">157</field>
+	<field name="titel">Hera Pheri</field>
+	<field name="jahr">2000</field>
+	<field name="laenge">156 min</field>
+	<field name="genres">&quot;Comedy;Crime;Thriller&quot;</field>
+	<field name="regisseure">&quot;Priyadarshan&quot;</field>
+	<field name="schauspieler">&quot;Akshay Kumar;Paresh Rawal;Sunil Shetty;Tabu&quot;</field>
+	<field name="plot">&quot;Three unemployed men find the answer to all their money problems when they recieve a call from a kidnapper. However, things do not go as planned.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTYwNDdmNmEtOGZhYS00MjRiLWIzOWUtNDQxNzg4ZTVjMGE1XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0242519</field>
+  </row>
+
+  <row>
+	<field name="id">167</field>
+	<field name="titel">Andaz Apna Apna</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">160 min</field>
+	<field name="genres">&quot;Comedy;Family;Romance&quot;</field>
+	<field name="regisseure">&quot;Rajkumar Santoshi&quot;</field>
+	<field name="schauspieler">&quot;Aamir Khan;Karisma Kapoor;Raveena Tandon;Salman Khan&quot;</field>
+	<field name="plot">&quot;Two slackers competing for the affections of an heiress, inadvertently become her protectors from an evil criminal.&quot;</field>
+	<field name="sprache">&quot;Hindi&quot;</field>
+	<field name="laender">&quot;India&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNWE2MjhjMmMtNzQyMS00MmI0LTlkOTUtZDVlZjFlNmZkNDgyL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0109117</field>
+  </row>
+
+  <row>
+	<field name="id">169</field>
+	<field name="titel">The Truman Show</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">103 min</field>
+	<field name="genres">&quot;Comedy;Drama;Sci-Fi&quot;</field>
+	<field name="regisseure">&quot;Peter Weir&quot;</field>
+	<field name="schauspieler">&quot;Jim Carrey;Laura Linney;Natascha McElhone;Noah Emmerich&quot;</field>
+	<field name="plot">&quot;An insurance salesman/adjuster discovers his entire life is actually a television show.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120382</field>
+  </row>
+
+  <row>
+	<field name="id">176</field>
+	<field name="titel">Annie Hall</field>
+	<field name="jahr">1977</field>
+	<field name="laenge">93 min</field>
+	<field name="genres">&quot;Comedy;Romance&quot;</field>
+	<field name="regisseure">&quot;Woody Allen&quot;</field>
+	<field name="schauspieler">&quot;Carol Kane;Diane Keaton;Tony Roberts;Woody Allen&quot;</field>
+	<field name="plot">&quot;Neurotic New York comedian Alvy Singer falls in love with the ditzy Annie Hall.&quot;</field>
+	<field name="sprache">&quot;English;German&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1NDM2MjkwM15BMl5BanBnXkFtZTcwODU3OTYwNA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0075686</field>
+  </row>
+
+  <row>
+	<field name="id">181</field>
+	<field name="titel">Monsters, Inc.</field>
+	<field name="jahr">2001</field>
+	<field name="laenge">92 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;David Silverman;Lee Unkrich;Pete Docter&quot;</field>
+	<field name="schauspieler">&quot;Billy Crystal;John Goodman;Mary Gibbs;Steve Buscemi&quot;</field>
+	<field name="plot">&quot;In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0198781</field>
+  </row>
+
+  <row>
+	<field name="id">187</field>
+	<field name="titel">Groundhog Day</field>
+	<field name="jahr">1993</field>
+	<field name="laenge">101 min</field>
+	<field name="genres">&quot;Comedy;Fantasy;Romance&quot;</field>
+	<field name="regisseure">&quot;Harold Ramis&quot;</field>
+	<field name="schauspieler">&quot;Andie MacDowell;Bill Murray;Chris Elliott;Stephen Tobolowsky&quot;</field>
+	<field name="plot">&quot;A weatherman finds himself inexplicably living the same day over and over again.&quot;</field>
+	<field name="sprache">&quot;English;French;Italian&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0107048</field>
+  </row>
+
+  <row>
+	<field name="id">193</field>
+	<field name="titel">Zootopia</field>
+	<field name="jahr">2016</field>
+	<field name="laenge">108 min</field>
+	<field name="genres">&quot;Adventure;Animation;Comedy&quot;</field>
+	<field name="regisseure">&quot;Byron Howard;Jared Bush;Rich Moore&quot;</field>
+	<field name="schauspieler">&quot;Ginnifer Goodwin;Idris Elba;Jason Bateman;Jenny Slate&quot;</field>
+	<field name="plot">&quot;In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt2948356</field>
+  </row>
+</resultset>

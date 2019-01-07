@@ -1,0 +1,1 @@
+c:\xampp\mysql\bin\mysql.exe videothek -u root < videothek4_dml.sql

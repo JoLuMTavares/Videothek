@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="daten.xslt"?>
+<resultset statement="SELECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte_id ORDER BY platte_kunde.platte_id ASC LIMIT 10
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="daten.xsd">
+  <row>
+	<field name="titel">The Godfather: Part II</field>
+	<field name="jahr">1974</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="laenge">202 min</field>
+	<field name="schauspieler">&quot;Al Pacino;Diane Keaton;Robert De Niro;Robert Duvall&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">12 Angry Men</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Sidney Lumet&quot;</field>
+	<field name="laenge">96 min</field>
+	<field name="schauspieler">&quot;E.G. Marshall;John Fiedler;Lee J. Cobb;Martin Balsam&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Forrest Gump</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Robert Zemeckis&quot;</field>
+	<field name="laenge">142 min</field>
+	<field name="schauspieler">&quot;Michael Conner Humphreys;Rebecca Williams;Sally Field;Tom Hanks&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Raiders of the Lost Ark</field>
+	<field name="jahr">1981</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">115 min</field>
+	<field name="schauspieler">&quot;Harrison Ford;Karen Allen;Paul Freeman;Ronald Lacey&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Princess Mononoke</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Hayao Miyazaki&quot;</field>
+	<field name="laenge">134 min</field>
+	<field name="schauspieler">&quot;Billy Bob Thornton;Billy Crudup;John DiMaggio;Minnie Driver&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Fight Club</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">139 min</field>
+	<field name="schauspieler">&quot;Brad Pitt;Edward Norton;Meat Loaf;Zach Grenier&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Fight Club</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">139 min</field>
+	<field name="schauspieler">&quot;Brad Pitt;Edward Norton;Meat Loaf;Zach Grenier&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Fight Club</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">139 min</field>
+	<field name="schauspieler">&quot;Brad Pitt;Edward Norton;Meat Loaf;Zach Grenier&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</field>
+	<field name="jahr">1964</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">95 min</field>
+	<field name="schauspieler">&quot;George C. Scott;Keenan Wynn;Peter Sellers;Sterling Hayden&quot;</field>
+  </row>
+
+  <row>
+	<field name="titel">Cinema Paradiso</field>
+	<field name="jahr">1988</field>
+	<field name="regisseure">&quot;Giuseppe Tornatore&quot;</field>
+	<field name="laenge">155 min</field>
+	<field name="schauspieler">&quot;Antonella Attili;Enzo Cannavale;Isa Danieli;Leo Gullotta&quot;</field>
+  </row>
+</resultset>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="genre_schau.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spacey%' AND jahr &gt; 1990 AND jahr &lt; 2000
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="genre_schau.xsd">
+  <row>
+	<field name="id">18</field>
+	<field name="titel">Se7en</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">127 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="schauspieler">&quot;Andrew Kevin Walker;Daniel Zacapa;Kevin Spacey;Morgan Freeman&quot;</field>
+	<field name="plot">&quot;Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114369</field>
+  </row>
+
+  <row>
+	<field name="id">54</field>
+	<field name="titel">American Beauty</field>
+	<field name="jahr">1999</field>
+	<field name="laenge">122 min</field>
+	<field name="genres">&quot;Drama;Romance&quot;</field>
+	<field name="regisseure">&quot;Sam Mendes&quot;</field>
+	<field name="schauspieler">&quot;Annette Bening;Kevin Spacey;Thora Birch;Wes Bentley&quot;</field>
+	<field name="plot">&quot;A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjM4NTI5NzYyNV5BMl5BanBnXkFtZTgwNTkxNTYxMTE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0169547</field>
+  </row>
+
+  <row>
+	<field name="id">83</field>
+	<field name="titel">L.A. Confidential</field>
+	<field name="jahr">1997</field>
+	<field name="laenge">138 min</field>
+	<field name="genres">&quot;Crime;Drama;Mystery&quot;</field>
+	<field name="regisseure">&quot;Curtis Hanson&quot;</field>
+	<field name="schauspieler">&quot;Guy Pearce;James Cromwell;Kevin Spacey;Russell Crowe&quot;</field>
+	<field name="plot">&quot;As corruption grows in 1950s LA, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMDBlYzAwZDktNzM2MS00YzBlLWI4ODQtZTlkNmMxZDc3NGRkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0119488</field>
+  </row>
+</resultset>

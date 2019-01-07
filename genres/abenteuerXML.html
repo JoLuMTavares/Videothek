@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<script src="script/templates.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Videothek Webseite</title>
+		
+	</head>
+	<body>
+		<header>
+			<h1>Videothek</h1>
+			<img src="../bilder/POTW_Bullitt_16-10.jpg"></img>
+			<nav>
+				<a href="../index.html">Home</a>
+				<a href="genres.html">Genres Hauptseite</a>
+				<a href="action.html">Aktionfilme</a>
+				<a href="abenteuer.html">Abenteuer</a>
+				<a href="komoedie.html">Komödie</a>
+				<a href="Krimi.html">Krimi</a>
+				<a href="drama.html">Drama</a>
+				<a href="krieg.html">Krieg</a>
+				<a href="actionXML.html">Actionfilme (xml)</a>
+				<a href="abenteuerXML.html">Abenteuer (xml)</a>
+				<a href="komoedieXML.html">Komödie (xml)</a>
+				<a href="KrimiXML.html">Krimi (xml)</a>
+				<a href="dramaXML.html">Drama (xml)</a>
+				<a href="kriegXML.html">Krieg (xml)</a>
+			</nav>
+			
+		</header>
+		<div id="inhalt" class="inhalt">
+			<h2>Alle Abenteuerfilme</h2>
+			<p>Bitte, drücken Sie diese Knopf für die information schauen.</p>
+			<!--<iframe height="80%" width="100%" src="datensatz/adventure.xml" style="border:2px solid grey;"></iframe>-->
+			<button type="button" onclick="loadXML('datensatz/adventure.xml', xmlFile)">Hochladen</button>
+			<div id="ergebnis" class="ergebnis"> </div>
+		</div>
+		<!--<aside><h2>BESCHREIBUNG</h2>
+			<p id="bschr">
+				Hier sehen sie eine Tabelle mit alle Abenteuere daten.<br/> 
+				Dieser Inhalt kommt innerhalb ein iFrame.
+			</p>
+		</aside>-->
+		<footer>
+			<br />
+			<a id="fLink" href="kontakt.html">Kontakt</a>
+			<a id="fLink" href="cpright.html">&#169; Copyright</a>
+			<a id="fLink" href="feedback.html">Feedback</a>
+		</footer>
+		<script>
+			/* Diese funktion lädt die xml datei hoch. */
+			function loadXML(url, cFunction) {
+			  var xhttp;
+			  xhttp=new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				  cFunction(this);
+				}
+			  };
+			  xhttp.open("GET", url, true);
+			  xhttp.send();
+			}
+			
+			/* Diese funktion legt eine Tabelle mit der xml datei an. */
+			function xmlFile(xml) {
+
+				var a, b, c, d, e, f, g, h, k, l, x, y, i, xmlDoc, txt;
+				var xmlDoc = xml.responseXML;
+				txt = "";
+				//txt += "<link rel='stylesheet' type='text/css' href='css/allefilmen.css'/>";
+				txt = "<table BORDER=1  style='border-style: ridge; background: linear-gradient(-90deg, #FFBF00, brown)'>";
+				txt += "<tr bgcolor='#f44'><th>id</th><th>titel</th><th>jahr</th><th>länge</th><th>genres</th><th>regisseure</th><th>schauspieler</th><th>plot</th><th>sprache</th><th>länder</th><th>plakat_url</th><th>imdbID</th></tr>";
+				a = xmlDoc.getElementsByName("id");
+				b = xmlDoc.getElementsByName("titel");
+				c = xmlDoc.getElementsByName("jahr");
+				d = xmlDoc.getElementsByName("laenge");
+				e = xmlDoc.getElementsByName("genres");
+				f = xmlDoc.getElementsByName("regisseure");
+				g = xmlDoc.getElementsByName("schauspieler");
+				h = xmlDoc.getElementsByName("plot");
+				k = xmlDoc.getElementsByName("sprache");
+				l = xmlDoc.getElementsByName("laender");
+				x = xmlDoc.getElementsByName("plakat_url|");
+				y = xmlDoc.getElementsByName("imdbID");
+				for (i = 0; i< x.length; i++) {
+					txt += "<tr>";
+					txt += "<td>";
+					txt += a[i].childNodes[0].nodeValue;
+					txt += "</td>";
+					txt += "<td>";
+					txt += b[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += c[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += d[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += e[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += f[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += g[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += h[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += k[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += l[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "<td>";
+					txt += "<a href='" + x[i].childNodes[0].nodeValue + "' alt='Click to view full sioze image'><img id='tImg' src='" + x[i].childNodes[0].nodeValue + "'></a>";
+					txt += "</td>";	
+					txt += "<td>";
+					txt += y[i].childNodes[0].nodeValue;
+					txt += "</td>";	
+					txt += "</tr>";
+				}
+				txt += "</table>";
+				document.getElementById("ergebnis").innerHTML += txt;				
+			}
+		</script>
+	</body>
+</html>

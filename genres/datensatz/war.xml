@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="genre.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE genres LIKE '%War%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="genre.xsd">
+  <row>
+	<field name="id">20</field>
+	<field name="titel">Life Is Beautiful</field>
+	<field name="jahr">1997</field>
+	<field name="laenge">116 min</field>
+	<field name="genres">&quot;Comedy;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Roberto Benigni&quot;</field>
+	<field name="schauspieler">&quot;Giorgio Cantarini;Giustino Durano;Nicoletta Braschi;Roberto Benigni&quot;</field>
+	<field name="plot">&quot;When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.&quot;</field>
+	<field name="sprache">&quot;English;German;Italian&quot;</field>
+	<field name="laender">&quot;Italy&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0118799</field>
+  </row>
+
+  <row>
+	<field name="id">25</field>
+	<field name="titel">Saving Private Ryan</field>
+	<field name="jahr">1998</field>
+	<field name="laenge">169 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="schauspieler">&quot;Barry Pepper;Edward Burns;Tom Hanks;Tom Sizemore&quot;</field>
+	<field name="plot">&quot;Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.&quot;</field>
+	<field name="sprache">&quot;Czech;English;French;German&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120815</field>
+  </row>
+
+  <row>
+	<field name="id">30</field>
+	<field name="titel">Casablanca</field>
+	<field name="jahr">1942</field>
+	<field name="laenge">102 min</field>
+	<field name="genres">&quot;Drama;Romance;War&quot;</field>
+	<field name="regisseure">&quot;Michael Curtiz&quot;</field>
+	<field name="schauspieler">&quot;Claude Rains;Humphrey Bogart;Ingrid Bergman;Paul Henreid&quot;</field>
+	<field name="plot">&quot;In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.&quot;</field>
+	<field name="sprache">&quot;English;French;German;Italian&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0034583</field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="titel">The Pianist</field>
+	<field name="jahr">2002</field>
+	<field name="laenge">150 min</field>
+	<field name="genres">&quot;Biography;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Roman Polanski&quot;</field>
+	<field name="schauspieler">&quot;Adrien Brody;Ed Stoppard;Emilia Fox;Michal Zebrowski&quot;</field>
+	<field name="plot">&quot;A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.&quot;</field>
+	<field name="sprache">&quot;English;German;Russian&quot;</field>
+	<field name="laender">&quot;France;Germany;Poland;UK&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0253474</field>
+  </row>
+
+  <row>
+	<field name="id">42</field>
+	<field name="titel">Apocalypse Now</field>
+	<field name="jahr">1979</field>
+	<field name="laenge">153 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Frederic Forrest;Marlon Brando;Martin Sheen;Robert Duvall&quot;</field>
+	<field name="plot">&quot;During the Vietnam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.&quot;</field>
+	<field name="sprache">&quot;English;French;Vietnamese&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODViM2VjYWYtMzU5Ny00ZjczLWEzNjMtODZmNGMwZDAxNzJkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0078788</field>
+  </row>
+
+  <row>
+	<field name="id">46</field>
+	<field name="titel">The Great Dictator</field>
+	<field name="jahr">1940</field>
+	<field name="laenge">125 min</field>
+	<field name="genres">&quot;Comedy;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="schauspieler">&quot;Charles Chaplin;Henry Daniell;Jack Oakie;Reginald Gardiner&quot;</field>
+	<field name="plot">&quot;Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.&quot;</field>
+	<field name="sprache">&quot;English;Esperanto&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0032553</field>
+  </row>
+
+  <row>
+	<field name="id">50</field>
+	<field name="titel">Paths of Glory</field>
+	<field name="jahr">1957</field>
+	<field name="laenge">88 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="schauspieler">&quot;Adolphe Menjou;George Macready;Kirk Douglas;Ralph Meeker&quot;</field>
+	<field name="plot">&quot;After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.&quot;</field>
+	<field name="sprache">&quot;English;German;Latin&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTI5Nzc0OTMtYzBkMS00NjkxLThmM2UtNjM2ODgxN2M5NjNkXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0050825</field>
+  </row>
+
+  <row>
+	<field name="id">52</field>
+	<field name="titel">Grave of the Fireflies</field>
+	<field name="jahr">1988</field>
+	<field name="laenge">89 min</field>
+	<field name="genres">&quot;Animation;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Isao Takahata&quot;</field>
+	<field name="schauspieler">&quot;Akemi Yamaguchi;Ayano Shiraishi;Tsutomu Tatsumi;Yoshiko Shinohara&quot;</field>
+	<field name="plot">&quot;A young boy and his little sister struggle to survive in Japan during World War II.&quot;</field>
+	<field name="sprache">&quot;Japanese&quot;</field>
+	<field name="laender">&quot;Japan&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZjEwNDVhZjMtYzA1MS00ZWUxLThjOGUtZTliNGZiNGYyMjA3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0095327</field>
+  </row>
+
+  <row>
+	<field name="id">78</field>
+	<field name="titel">Inglourious Basterds</field>
+	<field name="jahr">2009</field>
+	<field name="laenge">153 min</field>
+	<field name="genres">&quot;Adventure;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Eli Roth;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">Brad Pitt;Christoph Waltz;Eli Roth;M‚lanie Laurent</field>
+	<field name="plot">&quot;In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.&quot;</field>
+	<field name="sprache">&quot;English;French;German;Italian&quot;</field>
+	<field name="laender">&quot;Germany;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0361748</field>
+  </row>
+
+  <row>
+	<field name="id">106</field>
+	<field name="titel">The Bridge on the River Kwai</field>
+	<field name="jahr">1957</field>
+	<field name="laenge">161 min</field>
+	<field name="genres">&quot;Adventure;Drama;War&quot;</field>
+	<field name="regisseure">&quot;David Lean&quot;</field>
+	<field name="schauspieler">&quot;Alec Guinness;Jack Hawkins;Sessue Hayakawa;William Holden&quot;</field>
+	<field name="plot">&quot;After settling his differences with a Japanese PoW camp commander, a British colonel co-operates to oversee his men's construction of a railway bridge for their captors - while oblivious to a plan by the Allies to destroy it.&quot;</field>
+	<field name="sprache">&quot;English;Japanese;Thai&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYjE1MzU4NWEtYjhjZS00NzM3LWIyYjQtMWU1M2VkNWYzMzMwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0050212</field>
+  </row>
+
+  <row>
+	<field name="id">113</field>
+	<field name="titel">Judgment at Nuremberg</field>
+	<field name="jahr">1961</field>
+	<field name="laenge">186 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Stanley Kramer&quot;</field>
+	<field name="schauspieler">&quot;Burt Lancaster;Marlene Dietrich;Richard Widmark;Spencer Tracy&quot;</field>
+	<field name="plot">&quot;In 1948, an American court in occupied Germany tries four Nazi judges for war crimes.&quot;</field>
+	<field name="sprache">&quot;English;German&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNDc2ODQ5NTE2MV5BMl5BanBnXkFtZTcwODExMjUyNA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0055031</field>
+  </row>
+
+  <row>
+	<field name="id">118</field>
+	<field name="titel">Hacksaw Ridge</field>
+	<field name="jahr">2016</field>
+	<field name="laenge">139 min</field>
+	<field name="genres">&quot;Drama;History;War&quot;</field>
+	<field name="regisseure">&quot;Mel Gibson&quot;</field>
+	<field name="schauspieler">&quot;Andrew Garfield;Jacob Warner;Milo Gibson;Richard Pyros&quot;</field>
+	<field name="plot">&quot;WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people, and becomes the first man in American history to receive the Medal of Honor without firing a shot.&quot;</field>
+	<field name="sprache">&quot;English;Japanese&quot;</field>
+	<field name="laender">&quot;Australia;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt2119532</field>
+  </row>
+
+  <row>
+	<field name="id">125</field>
+	<field name="titel">The Deer Hunter</field>
+	<field name="jahr">1978</field>
+	<field name="laenge">183 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Michael Cimino&quot;</field>
+	<field name="schauspieler">&quot;Christopher Walken;John Cazale;John Savage;Robert De Niro&quot;</field>
+	<field name="plot">&quot;An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.&quot;</field>
+	<field name="sprache">&quot;English;French;Russian;Vietnamese&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzYmRmZTQtYjk2NS00MDdlLTkxMDAtMTE2YTM2ZmNlMTBkXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0077416</field>
+  </row>
+
+  <row>
+	<field name="id">141</field>
+	<field name="titel">Come and See</field>
+	<field name="jahr">1985</field>
+	<field name="laenge">142 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Elem Klimov&quot;</field>
+	<field name="schauspieler">&quot;Aleksey Kravchenko;Liubomiras Laucevicius;Olga Mironova;Vladas Bagdonas&quot;</field>
+	<field name="plot">&quot;After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.&quot;</field>
+	<field name="sprache">&quot;Belarusian;German;Russian&quot;</field>
+	<field name="laender">&quot;Soviet Union&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BM2UxNDkzMmYtOThlYi00ZmRjLWIyYzQtYTM5YWIzNWE1NzMzXkEyXkFqcGdeQXVyNTc2MDU0NDE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0091251</field>
+  </row>
+
+  <row>
+	<field name="id">191</field>
+	<field name="titel">The Best Years of Our Lives</field>
+	<field name="jahr">1946</field>
+	<field name="laenge">172 min</field>
+	<field name="genres">&quot;Drama;Romance;War&quot;</field>
+	<field name="regisseure">&quot;William Wyler&quot;</field>
+	<field name="schauspieler">&quot;Dana Andrews;Fredric March;Myrna Loy;Teresa Wright&quot;</field>
+	<field name="plot">&quot;Three World War II veterans return home to small-town America to discover that they and their families have been irreparably changed.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NTAxNzg3Nl5BMl5BanBnXkFtZTcwNjU4OTQwNw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0036868</field>
+  </row>
+
+  <row>
+	<field name="id">196</field>
+	<field name="titel">The Battle of Algiers</field>
+	<field name="jahr">1966</field>
+	<field name="laenge">121 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Gillo Pontecorvo&quot;</field>
+	<field name="schauspieler">&quot;Brahim Hadjadj;Jean Martin;Samia Kerbash;Yacef Saadi&quot;</field>
+	<field name="plot">&quot;In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government.&quot;</field>
+	<field name="sprache">&quot;Arabic;English;French&quot;</field>
+	<field name="laender">&quot;Algeria;Italy&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYzliNzI5NzgtNDZmNy00NGU4LTg2OTQtMDEzZTRiNDU3ZTI1XkEyXkFqcGdeQXVyMDUyOTUyNQ@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0058946</field>
+  </row>
+</resultset>

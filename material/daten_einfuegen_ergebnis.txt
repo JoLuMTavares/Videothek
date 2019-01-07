@@ -1,0 +1,106 @@
+REM Datenbank und Tabellen anlegen
+
+C:\Users\J. Tavares>projekt_ddl_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe -u root  0<videothek.sql
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Filmen eingeuegt
+
+C:\Users\J. Tavares>projekt_loadInfile_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<load_data_
+infile.sql
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Schauspieler eingeuegt
+
+C:\Users\J. Tavares>projekt_ldS_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<schauspiel
+er.sql
+
+C:\Users\J. Tavares>
+
+
+REM Daten ueber Genres eingeuegt
+
+C:\Users\J. Tavares>projekt_ldG_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<genres.sql
+
+
+C:\Users\J. Tavares>
+
+REM Daten ueber Regisseure eingeuegt
+
+C:\Users\J. Tavares>projekt_ldR_erstellen
+
+C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<load_reg.sql
+
+C:\Users\J. Tavares>
+
+REM Daten ueber scheibe eingeuegt
+
+C:\Users\890001>projekt_dml_erstellen2
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<videothek2_dml.sql
+
+
+REM Daten ueber filme_schauspieler eingeuegt
+
+C:\Users\890001>projekt_dml_erstellen3
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<videothek3_dml.sql
+
+REM Daten ueber regisseur_filme und filme_genre eingeuegt
+
+C:\Users\890001>projekt_dml_erstellen4
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<videothek4_dml.sql
+
+C:\Users\890001>
+
+
+REM verschiedenen aufgaben mit platten und platte_kunde
+
+C:\Users\890001>projekt_dml_erstellen5
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<videothek5_dml.sql
+
+
+REM verschiedenen aufgaben mit mahnung und rechnung
+
+C:\Users\890001>projekt_dml_erstellen6
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root  0<videothek6_dml.sql
+
+
+REM Zwei verschiedenen daten. Die ergebnis kommt wie xml und html daten.
+
+
+C:\Users\890001>projekt_aufgaben
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT nam
+e FROM regisseur"  1>regisseure.xml
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT nam
+e FROM regisseur"  1>regisseure.html
+
+C:\Users\890001>
+
+REM Alle filmen finden. Die ergebnis kommt wie xml und html daten.
+
+C:\Users\890001>projekt_filmen_finden
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT tit
+el,jahr, regisseure, laenge FROM filmen"  1>c:\xampp\htdocs\dsql\videothek\filme
+n.xml
+
+C:\Users\890001>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT tit
+el,jahr, regisseure, laenge FROM filmen"  1>c:\xampp\htdocs\dsql\videothek\filme
+n.html
+
+C:\Users\890001>
