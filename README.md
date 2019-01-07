@@ -1,5 +1,5 @@
 # Videothek
-A site containing informatins about different movies, actors and directors.
+A site containing informatins about different available to rent.
 
 IMPORTANT 
 
