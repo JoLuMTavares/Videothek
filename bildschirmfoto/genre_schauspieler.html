@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+			
+		<title>
+		DDL-Befehle
+		</title>
+		<meta charset=""utf8">
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			
+			h1{
+				text-align: center;
+				background-color: gold;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>Daten Entnahme</h1>
+		<h2>Seite 5 - Genre und Schauspieler</h2>
+		<h3>Direkt SQL Befehle an der Eingabeaufforderung</h3>
+		<hr>
+			<header>			
+				<nav style="background-color: orange">
+					<a href="../index.html">Home</a>
+					<a href="ddl_dml_befehle.html">DDL und DML</a>
+					<a href="regisseure.html">Regisseure Befehle</a>
+					<a href="schauspieler.html">Schauspieler Befehle</a>
+					<a href="genres.html">Genres Befehle</a>
+					<a href="genre_schauspieler.html">Genre und Schauspieler</a>
+					<a href="Verschiedene_faelle.html">Verschiedene Fälle</a>
+					<a href="sql_skript.html">SQL Skript</a>
+					<a href="diagram.html">Diagram</a>
+				</nav>	
+			</header>
+			<div>
+				<hr>
+				<pre>
+					<samp>
+				REM Alle filmen der 90er Jahre mit Krimi genre von Morgan Freeman
+					
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Freema
+				n%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\morganf.xm
+				l
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Fr
+				eeman%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\morgan
+				f.html
+				
+
+				REM Alle filmen der 90er Jahre mit Krimi genre von Kevin Spacey
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Kevin Spacey%
+				' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\kevins.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Kevin Spa
+				cey%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\kevins.h
+				tml
+				
+				
+				REM Alle filmen der 90er Jahre mit Drama genre von Kevin Spacey
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spacey%
+				' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\kevins2.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spa
+				cey%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\kevins2.
+				html
+				
+				
+				REM Alle filmen der 90er Jahre mit Action genre von Arnold Schwarzenegger
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE genres LIKE '%Action%' AND schauspieler LIKE '%Arnold Schwa
+				rzenegger%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothek\ar
+				nold.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE genres LIKE '%Action%' AND schauspieler LIKE '%Arnold S
+				chwarzenegger%' AND jahr » 1990 AND jahr « 2000" » c:\xampp\htdocs\dsql\videothe
+				k\arnold.html
+
+				C:\Users\J. Tavares>
+					</samp>
+				</pre>
+				<hr>
+			</div>
+			<aside>
+				Hier sehen sie vershiedenen SQL Befehle. Diese Befehle sind für verschiedenen Genres und Schauspieler.<br/>
+				Das heißt, wir suchen für alle filmen mit einem spezifischen Genre und einem Schauspieler.
+				Das ist nur für filmen der 90er Jahren.
+				Dann anlegen wir eine xml und eine html daten.<br/><br/>
+				ACHTUNG!<br/>
+				Beide « und » Signale sind ein Ersatz für die Originale kleiner und größerer Signale.
+				Mit der Originale gibt es hier koflikt mit html kode.			  
+			</aside>
+			<footer>
+				<br />
+				<a id="fLink" href="../kontakt.html">Kontakt</a>
+				<a id="fLink" href="../cpright.html">&#169; Copyright</a>
+				<a id="fLink" href="../feedback.html">Feedback</a>
+			</footer>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+/* Kopfzeile, navigation und boden */
+
+header, nav, footer {
+	width: 100%;
+}
+
+/* Hoehe fuer beide haupt und recht teilen */
+
+div, aside {
+	float: left;
+	height: 85%;
+}
+
+div {
+	width: 80%;
+}
+
+
+/* Haupt teil inhalt */
+pre {
+	width: 100%;
+	color: gold;
+	background-color: #333;
+	
+}
+
+/* Recht teil von seite */
+
+aside {
+	background-color: lightgrey;
+	width: 20%;
+}
+
+/* Boden von seite */
+
+footer {
+	float: left;
+	height: 15%;
+	
+}
+
+
+/* ++++++++++++++++++ Kode für Haupt seite ++++++++++++++++++ */
+p#wkText {
+	font-size: 1.5em;
+}
+
+/* Kode für Kontakt seite */
+
+h2#kontakt, address {
+	padding-left: 2%;
+}

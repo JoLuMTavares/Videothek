@@ -1,0 +1,1 @@
+LOAD DATA INFILE "C:\\xampp\\htdocs\\dsql\\videothek\\data\\regisseure.csv" INTO TABLE regisseur FIELDS TERMINATED BY "," LINES TERMINATED BY "\r\n" IGNORE 1 LINES;

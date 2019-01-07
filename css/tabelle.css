@@ -1,0 +1,11 @@
+TABLE {
+	font-family: "Calibri";
+	color: #FFEB33;
+	background: linear-gradient(-90deg, #222, black);
+}
+
+/* Farbe für alle köpfe*/
+TH {
+	color: skyblue;
+	background: black;
+}

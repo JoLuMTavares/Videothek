@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+			
+		<title>
+		SQL Skript
+		</title>
+		<meta charset=""utf8">
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			
+			h1{
+				text-align: center;
+				background-color: gold;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>SQL Skript</h1>
+		<h2>Seite 7</h2>
+		<h3>Hier bleibt alle sql skript</h3>
+		<hr>
+			<header>			
+				<nav style="background-color: orange">
+					<a href="../index.html">Home</a>
+					<a href="ddl_dml_befehle.html">DDL und DML</a>
+					<a href="regisseure.html">Regisseure Befehle</a>
+					<a href="schauspieler.html">Schauspieler Befehle</a>
+					<a href="genres.html">Genres Befehle</a>
+					<a href="genre_schauspieler.html">Genre und Schauspieler</a>
+					<a href="Verschiedene_faelle.html">Verschiedene Fälle</a>
+					<a href="sql_skript.html">SQL Skript</a>
+					<a href="diagram.html">Diagram</a>
+				</nav>	
+			</header>
+			<div>
+				<hr>
+				<pre>
+					<samp>
+				-- DDL
+
+			DROP DATABASE IF EXISTS `videothek`;
+
+			CREATE DATABASE IF NOT EXISTS `videothek` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+			USE videothek;
+
+			CREATE TABLE `filmen` (
+			  `id` int(11) NOT NULL AUTO_INCREMENT,
+			  `titel` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `jahr` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  
+			  `laenge` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `genres` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `regisseure` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+
+			  `schauspieler` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `plot` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `sprache` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  `laender` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  
+			  `plakat_url|` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			 
+			  `imdbID` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  
+			  PRIMARY KEY (id)
+			  
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+			-- arme INT
+
+
+			-- Tabelle fuer regiessuer
+
+			CREATE TABLE `regisseur` (
+			  id int(11) NOT NULL AUTO_INCREMENT,
+			  name varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+			  PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+			-- Tabelle fuer regisseur_filme beziehung. Das heißt, ein regiessuer kann viele filme realisieren
+
+			CREATE TABLE `regisseur_filme` (
+			  `id` int(11) NOT NULL AUTO_INCREMENT,
+			  `director_id` int(11) NOT NULL,
+			  `movie_id` int(11) NOT NULL,
+			  PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+			-- Tabelle fuer genres
+
+			CREATE TABLE `genres` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				genre varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL, -- mann muss das wechseln 
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+			-- Tabelle fuer filme_genre beziehung. Das heißt, ein genre kann an viele filmen angeschaltet sein
+
+			CREATE TABLE `filme_genre` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				filme_id INT(11) NOT NULL,
+				genre_id INT(11) NOT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+			-- Tabelle fuer schauspieler
+
+			CREATE TABLE `schauspieler` (
+				id INT(11) NOT NULL,
+				`name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+			-- Tabelle fuer filme_schauspieler beziehung. Das heißt, ein schauspieler kann an viele filmen schauspielern. Normalweise, ein filme hat viele schauspieler.
+
+			CREATE TABLE `filme_schauspieler` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				filme_id INT(11) NOT NULL,
+				schauspieler_id INT(11) NOT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+			-- Tabelle fuer scheibe. Das heißt, ein scheibe hat nur ein filme. Aber, ein filme kann zwei oder mehr scheibe haben.
+
+			CREATE TABLE `scheibe` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				disc_type VARCHAR(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+				disc_size VARCHAR(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+				permanence VARCHAR(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+				rent_status VARCHAR(20) COLLATE utf8_unicode_ci DEFAULT NULL, -- mann muss das wechseln
+				days_rented INT(2),	
+				filme_id INT(11) NOT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+
+			-- Tabelle fuer kunde
+
+			CREATE TABLE `kunde` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				first_name VARCHAR(30) COLLATE utf8_unicode_ci DEFAULT NULL,
+				last_name VARCHAR(60) COLLATE utf8_unicode_ci DEFAULT NULL, -- mann muss das wechseln
+				age INT(2),
+				street  VARCHAR(30) COLLATE utf8_unicode_ci DEFAULT NULL, 
+				hause_number  VARCHAR(5) COLLATE utf8_unicode_ci DEFAULT NULL,
+				postal_code INT(5),
+				city  VARCHAR(20) COLLATE utf8_unicode_ci DEFAULT NULL,
+				phone  VARCHAR(15) COLLATE utf8_unicode_ci DEFAULT NULL,
+				mobile  VARCHAR(15) COLLATE utf8_unicode_ci DEFAULT NULL,
+				email  VARCHAR(30) COLLATE utf8_unicode_ci DEFAULT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+			-- Tabelle fuer scheibe_kunde beziehung. Das heißt, ein kunde kann nur ein scheibe mieten.
+
+			CREATE TABLE `scheibe_kunde` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				scheibe_id INT(11) NOT NULL,
+				kunde_id INT(11) NOT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+			-- Tabelle fuer mahnung. Das heißt, wenn die scheibe seit miete fast vertig ist, erhaelt die kunde eine Mahnung.
+
+			CREATE TABLE `mahnung` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				scheibe_id INT(11) NOT NULL,
+				kunde_id INT(11) NOT NULL,
+				description TEXT COLLATE utf8_unicode_ci DEFAULT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+			-- Tabelle fuer rechnung. Das heißt, wenn ein kunde ein scheibe jenseits vom Termin gemietet hat, erhaelt er eine rechnung. 
+
+			CREATE TABLE `rechnung` (
+				id INT(11) NOT NULL AUTO_INCREMENT,
+				scheibe_id INT(11) NOT NULL,
+				kunde_id INT(11) NOT NULL,
+				duration INT(2) NOT NULL,
+				bill DECIMAL(6,2) NOT NULL,
+				PRIMARY KEY (id)
+			) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+			
+			
+			----  DML -------------
+			
+			-- Diese INSERT ist fuer die kunde Tabelle
+			
+			INSERT INTO `kunde` (`first_name`,`last_name`,`age`,`street`,`hause_number`,`postal_code`,`city`,`phone`,`mobile`,`email`) VALUES ('Mark','Philips','24','Juliusstrasse','30','12051','Berlin','030-0000000','015690293847','mark.philips@gmx.de'),
+			('Joana','Castro','30','Friedrischstrasse','27','10151','Berlin','030-7898133','015683829102','joana.castro@gmx.de'),
+			('John','Layfield','47','Warschauerstrasse','13','10251','Berlin','030-0000000','015739333092','thejayman@gmail.com'),
+			('Akira','Takeshi','33','Warschauerstrasse','24','10251','Berlin','030-77783902','0158912135674','super.special@gmx.de'),
+			('Leonel','Rico','18','Alexanderstrasse','18','13151','Berlin','030-0000000','015490112283','thebestone23@gmx.de');
+			
+			
+			
+			
+			-- Diese INSERT ist fuer die filme_schauspieler Tabelle. Wenn ein film mit der Richtig schauspieler(in) findet, dann kopiert beide Schluessel (von filmen und schauspieler Tabellen)
+
+			INSERT INTO `filme_schauspieler` (filme_id, schauspieler_id) SELECT schauspieler.id, filmen.id FROM `schauspieler` JOIN filmen WHERE filmen.schauspieler LIKE CONCAT('%', schauspieler.name ,'%');
+			
+			
+			
+			-- Daten von filme datei hochgeladen und in die filmen Tabelle gespeichert.
+			
+			LOAD DATA INFILE "C:\\xampp\\htdocs\\dsql\\videothek\\data\\filme.csv" INTO TABLE filmen FIELDS TERMINATED BY "|" LINES TERMINATED BY "\r\n" IGNORE 1 LINES;
+			
+			
+			
+			-- Daten von genre datei hochgeladen und in die genre Tabelle gespeichert.
+			
+			LOAD DATA INFILE "C:\\xampp\\htdocs\\dsql\\videothek\\data\\genre.csv" INTO TABLE genres FIELDS TERMINATED BY ";" LINES TERMINATED BY "\r\n" IGNORE 1 LINES;
+			
+			
+			
+			-- Daten von regisseure datei hochgeladen und in die regisseure Tabelle gespeichert.
+			
+			LOAD DATA INFILE "C:\\xampp\\htdocs\\dsql\\videothek\\data\\regisseure.csv" INTO TABLE regisseur FIELDS TERMINATED BY "," LINES TERMINATED BY "\r\n" IGNORE 1 LINES;
+			
+			
+			
+			
+			--------------------------------------	AUFGABEN	-----------------------------------------------
+			
+			
+			-- Alle regisseure
+
+			SELECT name FROM regisseur;
+
+			-- Informationen von alle filmen
+
+			SELECT titel,jahr, regisseure, laenge FROM filmen;
+
+
+			--------------------- Genres ---------------------
+
+
+			-- Alle filmen mit "Comedy" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%Comedy%';
+
+			-- Alle filmen mit "Drama" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%Drama%';
+
+			-- Alle filmen mit "Action" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%Action%';
+
+			-- Alle filmen mit "Adventure" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%Adventure%';
+
+			-- Alle filmen mit "War" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%War%';
+
+			-- Alle filmen mit "Crime" genre
+
+			SELECT * FROM filmen WHERE genres LIKE '%Crime%';
+
+
+			--------------------- Genres und Schauspieler ---------------------
+
+
+			-- Alle 90er Jahre filmen mit "Crime" genre und Morgan Freeman schauspieler
+
+			SELECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Morgan Freeman%' 
+			AND jahr > 1990 AND jahr < 2000;
+
+
+			-- Alle 90er Jahre filmen mit "Crime" genre und `Kevin Spacey` schauspieler
+
+			SELECT * FROM filmen WHERE genres LIKE '%Crime%' AND schauspieler LIKE '%Kevin Spacey%' 
+			AND jahr > 1990 AND jahr < 2000;
+
+			-- Alle 90er Jahre filmen mit "Drama" genre und `Kevin Spacey` schauspieler
+
+			SELECT * FROM filmen WHERE genres LIKE '%Drama%' AND schauspieler LIKE '%Kevin Spacey%' 
+			AND jahr > 1990 AND jahr < 2000;
+
+			-- Alle 90er Jahre filmen mit "Action" genre und `Arnold Schwarzenegger` schauspieler
+
+			SELECT * FROM filmen WHERE genres LIKE '%Action%' AND schauspieler LIKE '%Arnold Schwarzenegger%' 
+			AND jahr > 1990 AND jahr < 2000;
+
+
+			--------------------- Schauspieler ---------------------
+
+			-- Alle filmen `Arnold Schwarzenegger` schauspieler
+
+			SELECT * FROM filmen WHERE schauspieler LIKE '%Arnold Schwarzenegger%';
+
+			-- Alle filmen `Bruce Willis` schauspieler
+
+			SELECT * FROM filmen WHERE schauspieler LIKE '%Bruce Willis%';
+
+			-- Alle filmen `Al Pacino` schauspieler
+
+			SELECT * FROM filmen WHERE schauspieler LIKE '%Al Pacino%';
+
+
+			-- Alle filmen `Christian Balle` schauspieler
+
+			SELECT * FROM filmen WHERE schauspieler LIKE '%Christian Bale%';
+
+
+			--------------------- Mahnung und Rechnung ---------------------
+
+			-- Alle Kunden, die eine Mahnung mit Rechnung erhalten sollten
+
+			SELECT * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id AND kunde.id = rechnung.id;
+
+
+			--------------------- Filmen ---------------------
+
+			-- Allen filmen frei in der Videothek
+
+			SELECT titel,jahr, regisseure, laenge FROM filmen JOIN platten WHERE filmen.id = platten.filme_id AND platten.miete_status = 'available';
+
+			-- Liste der am meisten geliehene Filme (top Ten)
+
+			-- SELECT titel,jahr, regisseure, laenge FROM filmen JOIN 
+			-- (SELECT platte_id FROM platte_kunde ORDER BY platte_id DESC LIMIT 10) 
+
+			SELECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN platte_kunde
+			WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte_id
+			ORDER BY platte_kunde.platte_id DESC LIMIT 10; 
+
+			-- Liste der Filme (Flop Ten), die nie geliehen worden.
+
+			SELECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN platte_kunde
+			WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte_id
+			ORDER BY platte_kunde.platte_id ASC LIMIT 10; 
+
+
+			-- Allen filmen von `Francis Ford Coppola`
+
+			SELECT * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%';
+
+			-- Allen filmen von `Quentin Tarantino`
+
+			SELECT * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%';
+
+			-- Allen filmen von `Peter Jackson`
+
+			SELECT * FROM filmen WHERE regisseure LIKE '%Peter Jackson%';
+
+			-- Allen filmen von `James Cameron`
+
+			SELECT * FROM filmen WHERE regisseure LIKE '%James Cameron%';
+
+
+					</samp>
+				</pre>
+				<hr>
+			</div>
+			<aside>
+				Hier sehen sie vershiedenen Programmausführung. 
+			</aside>
+			<footer>
+				<br />
+				<a id="fLink" href="../kontakt.html">Kontakt</a>
+				<a id="fLink" href="../cpright.html">&#169; Copyright</a>
+				<a id="fLink" href="../feedback.html">Feedback</a>
+			</footer>
+	</body>
+</html>

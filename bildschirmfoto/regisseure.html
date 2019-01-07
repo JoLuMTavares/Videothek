@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+			
+		<title>
+		DDL-Befehle
+		</title>
+		<meta charset=""utf8">
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			
+			h1{
+				text-align: center;
+				background-color: gold;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>Daten Entnahme</h1>
+		<h2>Seite 2 - Regisseure</h2>
+		<h3>Direkt SQL Befehle an der Eingabeaufforderung</h3>
+		<hr>
+			<header>			
+				<nav style="background-color: orange">
+					<a href="../index.html">Home</a>
+					<a href="ddl_dml_befehle.html">DDL und DML</a>
+					<a href="regisseure.html">Regisseure Befehle</a>
+					<a href="schauspieler.html">Schauspieler Befehle</a>
+					<a href="genres.html">Genres Befehle</a>
+					<a href="genre_schauspieler.html">Genre und Schauspieler</a>
+					<a href="Verschiedene_faelle.html">Verschiedene Fälle</a>
+					<a href="sql_skript.html">SQL Skript</a>
+					<a href="diagram.html">Diagram</a>
+				</nav>	
+			</header>
+			<div>
+				<hr>
+				<pre>
+					<samp>
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%'" » c:\xampp\htdocs
+				\dsql\videothek\fcoppola.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%'" » c:\xampp\ht
+				docs\dsql\videothek\fcoppola.html
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%'" » c:\xampp\htdocs\ds
+				ql\videothek\qtarantino.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%'" » c:\xampp\htdoc
+				s\dsql\videothek\qtarantino.html
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE regisseure LIKE '%Peter Jackson%'" » c:\xampp\htdocs\dsql\v
+				ideothek\pjackson.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE regisseure LIKE '%Peter Jackson%'" » c:\xampp\htdocs\ds
+				ql\videothek\pjackson.html
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM filmen WHERE regisseure LIKE '%James Cameron%'" » c:\xampp\htdocs\dsql\v
+				ideothek\jcameron.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM filmen WHERE regisseure LIKE '%James Cameron%'" » c:\xampp\htdocs\ds
+				ql\videothek\jcameron.html
+
+				C:\Users\J. Tavares>
+					</samp>
+				</pre>
+				<hr>
+			</div>
+			<aside>
+				Hier sehen sie vershiedenen SQL Befehle. Diese Befehle sind für verschiedenen regisseure.<br/>
+				Das heißt, wir suchen für alle filmen mit einem spezifischen Regisseur.<br/>
+				Dann anlegen wir eine xml und eine html daten.<br/><br/>
+				ACHTUNG!<br/>
+				Das » signal ist ein Ersatz für das original kleiner signal.
+				Mit das original gibt es hier koflikt mit html kode.			  
+			</aside>
+			<footer>
+				<br />
+				<a id="fLink" href="../kontakt.html">Kontakt</a>
+				<a id="fLink" href="../cpright.html">&#169; Copyright</a>
+				<a id="fLink" href="../feedback.html">Feedback</a>
+			</footer>
+	</body>
+</html>

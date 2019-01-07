@@ -1,0 +1,1411 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT titel,jahr, regisseure, laenge FROM filmen
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="titel">Memories of Murder</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Joon-ho Bong&quot;</field>
+	<field name="laenge">132 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Shawshank Redemption</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Frank Darabont&quot;</field>
+	<field name="laenge">142 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Godfather</field>
+	<field name="jahr">1972</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="laenge">175 min</field>
+  </row>
+
+  <row>
+	<field name="titel">12 Angry Men</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Sidney Lumet&quot;</field>
+	<field name="laenge">96 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Dark Knight</field>
+	<field name="jahr">2008</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="laenge">152 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Godfather: Part II</field>
+	<field name="jahr">1974</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="laenge">202 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Schindler: The Real Story</field>
+	<field name="jahr">1983</field>
+	<field name="regisseure">&quot;Jon Blair&quot;</field>
+	<field name="laenge">N/A</field>
+  </row>
+
+  <row>
+	<field name="titel">Pulp Fiction</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="laenge">154 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Lord of the Rings: The Return of the King</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="laenge">201 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Lord of the Rings: The Fellowship of the Ring</field>
+	<field name="jahr">2001</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="laenge">178 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Star Wars: Episode V - The Empire Strikes Back</field>
+	<field name="jahr">1980</field>
+	<field name="regisseure">&quot;Irvin Kershner&quot;</field>
+	<field name="laenge">124 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Forrest Gump</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Robert Zemeckis&quot;</field>
+	<field name="laenge">142 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Fight Club</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">139 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Lord of the Rings: The Two Towers</field>
+	<field name="jahr">2002</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="laenge">179 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Good, the Bad and the Ugly</field>
+	<field name="jahr">1966</field>
+	<field name="regisseure">&quot;Sergio Leone&quot;</field>
+	<field name="laenge">161 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Seven Samurai</field>
+	<field name="jahr">1954</field>
+	<field name="regisseure">&quot;Akira Kurosawa&quot;</field>
+	<field name="laenge">207 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Matrix</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;Lana Wachowski;Lilly Wachowski&quot;</field>
+	<field name="laenge">136 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Se7en</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">127 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Silence of the Lambs</field>
+	<field name="jahr">1991</field>
+	<field name="regisseure">&quot;Jonathan Demme&quot;</field>
+	<field name="laenge">118 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Life Is Beautiful</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Roberto Benigni&quot;</field>
+	<field name="laenge">116 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Star Wars: Episode IV - A New Hope</field>
+	<field name="jahr">1977</field>
+	<field name="regisseure">&quot;George Lucas&quot;</field>
+	<field name="laenge">121 min</field>
+  </row>
+
+  <row>
+	<field name="titel">City of God</field>
+	<field name="jahr">2002</field>
+	<field name="regisseure">&quot;Fernando Meirelles;K tia Lund&quot;</field>
+	<field name="laenge">130 min</field>
+  </row>
+
+  <row>
+	<field name="titel">L‚on: The Professional</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Luc Besson&quot;</field>
+	<field name="laenge">110 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Usual Suspects</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Bryan Singer&quot;</field>
+	<field name="laenge">106 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Saving Private Ryan</field>
+	<field name="jahr">1998</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">169 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Spirited Away</field>
+	<field name="jahr">2001</field>
+	<field name="regisseure">&quot;Hayao Miyazaki&quot;</field>
+	<field name="laenge">125 min</field>
+  </row>
+
+  <row>
+	<field name="titel">American History X</field>
+	<field name="jahr">1998</field>
+	<field name="regisseure">&quot;Tony Kaye&quot;</field>
+	<field name="laenge">119 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Once Upon a Time in the West</field>
+	<field name="jahr">1968</field>
+	<field name="regisseure">&quot;Sergio Leone&quot;</field>
+	<field name="laenge">175 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Interstellar</field>
+	<field name="jahr">2014</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="laenge">169 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Casablanca</field>
+	<field name="jahr">1942</field>
+	<field name="regisseure">&quot;Michael Curtiz&quot;</field>
+	<field name="laenge">102 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Green Mile</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;Frank Darabont&quot;</field>
+	<field name="laenge">189 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Intouchables</field>
+	<field name="jahr">2011</field>
+	<field name="regisseure">&quot;Eric Toledano;Olivier Nakache&quot;</field>
+	<field name="laenge">112 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Modern Times</field>
+	<field name="jahr">1936</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="laenge">87 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Raiders of the Lost Ark</field>
+	<field name="jahr">1981</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">115 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Rear Window</field>
+	<field name="jahr">1954</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="laenge">112 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Pianist</field>
+	<field name="jahr">2002</field>
+	<field name="regisseure">&quot;Roman Polanski&quot;</field>
+	<field name="laenge">150 min</field>
+  </row>
+
+  <row>
+	<field name="titel">City Lights</field>
+	<field name="jahr">1931</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="laenge">87 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Back to the Future</field>
+	<field name="jahr">1985</field>
+	<field name="regisseure">&quot;Robert Zemeckis&quot;</field>
+	<field name="laenge">116 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Departed</field>
+	<field name="jahr">2006</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="laenge">151 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Terminator 2: Judgment Day</field>
+	<field name="jahr">1991</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="laenge">137 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Prestige</field>
+	<field name="jahr">2006</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="laenge">130 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Apocalypse Now</field>
+	<field name="jahr">1979</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="laenge">153 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Lion King</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Rob Minkoff;Roger Allers&quot;</field>
+	<field name="laenge">88 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</field>
+	<field name="jahr">1964</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">95 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Sunset Blvd.</field>
+	<field name="jahr">2012</field>
+	<field name="regisseure">&quot;Ulli Lommel&quot;</field>
+	<field name="laenge">N/A</field>
+  </row>
+
+  <row>
+	<field name="titel">The Great Dictator</field>
+	<field name="jahr">1940</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="laenge">125 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Cinema Paradiso</field>
+	<field name="jahr">1988</field>
+	<field name="regisseure">&quot;Giuseppe Tornatore&quot;</field>
+	<field name="laenge">155 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Lives of Others</field>
+	<field name="jahr">2006</field>
+	<field name="regisseure">&quot;Florian Henckel von Donnersmarck&quot;</field>
+	<field name="laenge">137 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Shining</field>
+	<field name="jahr">1980</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">146 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Paths of Glory</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">88 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Django Unchained</field>
+	<field name="jahr">2012</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="laenge">165 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Grave of the Fireflies</field>
+	<field name="jahr">1988</field>
+	<field name="regisseure">&quot;Isao Takahata&quot;</field>
+	<field name="laenge">89 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Dark Knight Rises</field>
+	<field name="jahr">2012</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="laenge">164 min</field>
+  </row>
+
+  <row>
+	<field name="titel">American Beauty</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;Sam Mendes&quot;</field>
+	<field name="laenge">122 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Princess Mononoke</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Hayao Miyazaki&quot;</field>
+	<field name="laenge">134 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Aliens</field>
+	<field name="jahr">1986</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="laenge">137 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Once Upon a Time in America</field>
+	<field name="jahr">1984</field>
+	<field name="regisseure">&quot;Sergio Leone&quot;</field>
+	<field name="laenge">229 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Witness for the Prosecution</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="laenge">116 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Das Boot</field>
+	<field name="jahr">1981</field>
+	<field name="regisseure">&quot;Wolfgang Petersen&quot;</field>
+	<field name="laenge">149 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Citizen Kane</field>
+	<field name="jahr">1941</field>
+	<field name="regisseure">&quot;Orson Welles&quot;</field>
+	<field name="laenge">119 min</field>
+  </row>
+
+  <row>
+	<field name="titel">North by Northwest</field>
+	<field name="jahr">1959</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="laenge">136 min</field>
+  </row>
+
+  <row>
+	<field name="titel">La La Land</field>
+	<field name="jahr">2016</field>
+	<field name="regisseure">&quot;Damien Chazelle&quot;</field>
+	<field name="laenge">128 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Reservoir Dogs</field>
+	<field name="jahr">1992</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="laenge">99 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Star Wars: Episode VI - Return of the Jedi</field>
+	<field name="jahr">1983</field>
+	<field name="regisseure">&quot;Richard Marquand&quot;</field>
+	<field name="laenge">131 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Requiem for a Dream</field>
+	<field name="jahr">2000</field>
+	<field name="regisseure">&quot;Darren Aronofsky&quot;</field>
+	<field name="laenge">102 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Taxi Driver</field>
+	<field name="jahr">1976</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="laenge">113 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Lawrence of Arabia</field>
+	<field name="jahr">1962</field>
+	<field name="regisseure">&quot;David Lean&quot;</field>
+	<field name="laenge">216 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Eternal Sunshine of the Spotless Mind</field>
+	<field name="jahr">2004</field>
+	<field name="regisseure">&quot;Michel Gondry&quot;</field>
+	<field name="laenge">108 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Double Indemnity</field>
+	<field name="jahr">1944</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="laenge">107 min</field>
+  </row>
+
+  <row>
+	<field name="titel">To Kill a Mockingbird</field>
+	<field name="jahr">1962</field>
+	<field name="regisseure">&quot;Robert Mulligan&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Toy Story 3</field>
+	<field name="jahr">2010</field>
+	<field name="regisseure">&quot;Lee Unkrich&quot;</field>
+	<field name="laenge">103 min</field>
+  </row>
+
+  <row>
+	<field name="titel">2001: A Space Odyssey</field>
+	<field name="jahr">1968</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">149 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Sting</field>
+	<field name="jahr">1973</field>
+	<field name="regisseure">&quot;George Roy Hill&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Singin' in the Rain</field>
+	<field name="jahr">1952</field>
+	<field name="regisseure">&quot;Gene Kelly;Stanley Donen&quot;</field>
+	<field name="laenge">103 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Bicycle Thieves</field>
+	<field name="jahr">1948</field>
+	<field name="regisseure">&quot;Vittorio De Sica&quot;</field>
+	<field name="laenge">89 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Toy Story</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;John Lasseter&quot;</field>
+	<field name="laenge">81 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Kid</field>
+	<field name="jahr">1921</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="laenge">68 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Inglourious Basterds</field>
+	<field name="jahr">2009</field>
+	<field name="regisseure">&quot;Eli Roth;Quentin Tarantino&quot;</field>
+	<field name="laenge">153 min</field>
+  </row>
+
+  <row>
+	<field name="titel">A Clockwork Orange</field>
+	<field name="jahr">1971</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">136 min</field>
+  </row>
+
+  <row>
+	<field name="titel">3 Idiots</field>
+	<field name="jahr">2009</field>
+	<field name="regisseure">&quot;Rajkumar Hirani&quot;</field>
+	<field name="laenge">170 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Monty Python and the Holy Grail</field>
+	<field name="jahr">1975</field>
+	<field name="regisseure">&quot;Terry Gilliam;Terry Jones&quot;</field>
+	<field name="laenge">91 min</field>
+  </row>
+
+  <row>
+	<field name="titel">For a Few Dollars More</field>
+	<field name="jahr">1965</field>
+	<field name="regisseure">&quot;Sergio Leone&quot;</field>
+	<field name="laenge">132 min</field>
+  </row>
+
+  <row>
+	<field name="titel">L.A. Confidential</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Curtis Hanson&quot;</field>
+	<field name="laenge">138 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Apartment</field>
+	<field name="jahr">1960</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="laenge">125 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Good Will Hunting</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Gus Van Sant&quot;</field>
+	<field name="laenge">126 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Rash“mon</field>
+	<field name="jahr">1941</field>
+	<field name="regisseure">&quot;Shinzo Yoshida&quot;</field>
+	<field name="laenge">N/A</field>
+  </row>
+
+  <row>
+	<field name="titel">A Separation</field>
+	<field name="jahr">2011</field>
+	<field name="regisseure">&quot;Asghar Farhadi&quot;</field>
+	<field name="laenge">123 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Indiana Jones and the Last Crusade</field>
+	<field name="jahr">1989</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">127 min</field>
+  </row>
+
+  <row>
+	<field name="titel">All About Eve</field>
+	<field name="jahr">1950</field>
+	<field name="regisseure">&quot;Joseph L. Mankiewicz&quot;</field>
+	<field name="laenge">138 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Batman Begins</field>
+	<field name="jahr">2005</field>
+	<field name="regisseure">&quot;Christopher Nolan&quot;</field>
+	<field name="laenge">140 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Raging Bull</field>
+	<field name="jahr">1980</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Die Hard</field>
+	<field name="jahr">1988</field>
+	<field name="regisseure">&quot;John McTiernan&quot;</field>
+	<field name="laenge">131 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Some Like It Hot</field>
+	<field name="jahr">1959</field>
+	<field name="regisseure">&quot;Billy Wilder&quot;</field>
+	<field name="laenge">120 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Treasure of the Sierra Madre</field>
+	<field name="jahr">1948</field>
+	<field name="regisseure">&quot;John Huston&quot;</field>
+	<field name="laenge">126 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Third Man</field>
+	<field name="jahr">1949</field>
+	<field name="regisseure">&quot;Carol Reed&quot;</field>
+	<field name="laenge">93 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Children of Heaven</field>
+	<field name="jahr">1997</field>
+	<field name="regisseure">&quot;Majid Majidi&quot;</field>
+	<field name="laenge">89 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Heat</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Michael Mann&quot;</field>
+	<field name="laenge">170 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Great Escape</field>
+	<field name="jahr">1963</field>
+	<field name="regisseure">&quot;John Sturges&quot;</field>
+	<field name="laenge">172 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Pan</field>
+	<field name="jahr">2015</field>
+	<field name="regisseure">&quot;Joe Wright&quot;</field>
+	<field name="laenge">111 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Inside Out</field>
+	<field name="jahr">2015</field>
+	<field name="regisseure">&quot;Pete Docter;Ronnie Del Carmen&quot;</field>
+	<field name="laenge">95 min</field>
+  </row>
+
+  <row>
+	<field name="titel">My Neighbor Totoro</field>
+	<field name="jahr">1988</field>
+	<field name="regisseure">&quot;Hayao Miyazaki&quot;</field>
+	<field name="laenge">86 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Andrei Rublev</field>
+	<field name="jahr">1966</field>
+	<field name="regisseure">&quot;Andrei Tarkovsky&quot;</field>
+	<field name="laenge">205 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Gold Rush</field>
+	<field name="jahr">1925</field>
+	<field name="regisseure">&quot;Charles Chaplin&quot;</field>
+	<field name="laenge">95 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Ikiru</field>
+	<field name="jahr">1952</field>
+	<field name="regisseure">&quot;Akira Kurosawa&quot;</field>
+	<field name="laenge">143 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Secret in Their Eyes</field>
+	<field name="jahr">2009</field>
+	<field name="regisseure">&quot;Juan Jos‚ Campanella&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Bridge on the River Kwai</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;David Lean&quot;</field>
+	<field name="laenge">161 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Room</field>
+	<field name="jahr">2015</field>
+	<field name="regisseure">&quot;Lenny Abrahamson&quot;</field>
+	<field name="laenge">118 min</field>
+  </row>
+
+  <row>
+	<field name="titel">On the Waterfront</field>
+	<field name="jahr">1954</field>
+	<field name="regisseure">&quot;Elia Kazan&quot;</field>
+	<field name="laenge">108 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Mr. Smith Goes to Washington</field>
+	<field name="jahr">1939</field>
+	<field name="regisseure">&quot;Frank Capra&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Seventh Seal</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Ingmar Bergman&quot;</field>
+	<field name="laenge">96 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Blade Runner</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;Ridley Scott&quot;</field>
+	<field name="laenge">117 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Lock, Stock and Two Smoking Barrels</field>
+	<field name="jahr">1998</field>
+	<field name="regisseure">&quot;Guy Ritchie&quot;</field>
+	<field name="laenge">107 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Judgment at Nuremberg</field>
+	<field name="jahr">1961</field>
+	<field name="regisseure">&quot;Stanley Kramer&quot;</field>
+	<field name="laenge">186 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Wild Strawberries</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Ingmar Bergman&quot;</field>
+	<field name="laenge">91 min</field>
+  </row>
+
+  <row>
+	<field name="titel">V for Vendetta</field>
+	<field name="jahr">2005</field>
+	<field name="regisseure">&quot;James McTeigue&quot;</field>
+	<field name="laenge">132 min</field>
+  </row>
+
+  <row>
+	<field name="titel">A Beautiful Mind</field>
+	<field name="jahr">2001</field>
+	<field name="regisseure">&quot;Ron Howard&quot;</field>
+	<field name="laenge">135 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Elephant Man</field>
+	<field name="jahr">1980</field>
+	<field name="regisseure">&quot;David Lynch&quot;</field>
+	<field name="laenge">124 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Hacksaw Ridge</field>
+	<field name="jahr">2016</field>
+	<field name="regisseure">&quot;Mel Gibson&quot;</field>
+	<field name="laenge">139 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Wolf of Wall Street</field>
+	<field name="jahr">2013</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="laenge">180 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The General</field>
+	<field name="jahr">1926</field>
+	<field name="regisseure">&quot;Buster Keaton;Clyde Bruckman&quot;</field>
+	<field name="laenge">67 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Bandit</field>
+	<field name="jahr">1996</field>
+	<field name="regisseure">&quot;Yavuz Turgul&quot;</field>
+	<field name="laenge">128 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Gran Torino</field>
+	<field name="jahr">2008</field>
+	<field name="regisseure">&quot;Clint Eastwood&quot;</field>
+	<field name="laenge">116 min</field>
+  </row>
+
+  <row>
+	<field name="titel">A Wednesday</field>
+	<field name="jahr">2008</field>
+	<field name="regisseure">&quot;Neeraj Pandey&quot;</field>
+	<field name="laenge">104 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Dial M for Murder</field>
+	<field name="jahr">1954</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="laenge">105 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Deer Hunter</field>
+	<field name="jahr">1978</field>
+	<field name="regisseure">&quot;Michael Cimino&quot;</field>
+	<field name="laenge">183 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Big Lebowski</field>
+	<field name="jahr">1998</field>
+	<field name="regisseure">&quot;Ethan Coen;Joel Coen&quot;</field>
+	<field name="laenge">117 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Rang De Basanti</field>
+	<field name="jahr">2006</field>
+	<field name="regisseure">&quot;Rakeysh Omprakash Mehra&quot;</field>
+	<field name="laenge">157 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Gone with the Wind</field>
+	<field name="jahr">1939</field>
+	<field name="regisseure">&quot;George Cukor;Sam Wood;Victor Fleming&quot;</field>
+	<field name="laenge">238 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Passion of Joan of Arc</field>
+	<field name="jahr">1928</field>
+	<field name="regisseure">&quot;Carl Theodor Dreyer&quot;</field>
+	<field name="laenge">114 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Tokyo Story</field>
+	<field name="jahr">1953</field>
+	<field name="regisseure">&quot;Yasujir“ Ozu&quot;</field>
+	<field name="laenge">136 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Sixth Sense</field>
+	<field name="jahr">1999</field>
+	<field name="regisseure">&quot;M. Night Shyamalan&quot;</field>
+	<field name="laenge">107 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Finding Nemo</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Andrew Stanton;Lee Unkrich&quot;</field>
+	<field name="laenge">100 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Thing</field>
+	<field name="jahr">1982</field>
+	<field name="regisseure">&quot;John Carpenter&quot;</field>
+	<field name="laenge">109 min</field>
+  </row>
+
+  <row>
+	<field name="titel">No Country for Old Men</field>
+	<field name="jahr">2007</field>
+	<field name="regisseure">&quot;Ethan Coen;Joel Coen&quot;</field>
+	<field name="laenge">122 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Cool Hand Luke</field>
+	<field name="jahr">1967</field>
+	<field name="regisseure">&quot;Stuart Rosenberg&quot;</field>
+	<field name="laenge">126 min</field>
+  </row>
+
+  <row>
+	<field name="titel">How to Train Your Dragon</field>
+	<field name="jahr">2010</field>
+	<field name="regisseure">&quot;Chris Sanders;Dean DeBlois&quot;</field>
+	<field name="laenge">98 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Kill Bill: Vol. 1</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="laenge">111 min</field>
+  </row>
+
+  <row>
+	<field name="titel">There Will Be Blood</field>
+	<field name="jahr">2007</field>
+	<field name="regisseure">&quot;Paul Thomas Anderson&quot;</field>
+	<field name="laenge">158 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Mary and Max</field>
+	<field name="jahr">2009</field>
+	<field name="regisseure">&quot;Adam Elliot&quot;</field>
+	<field name="laenge">92 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Into the Wild</field>
+	<field name="jahr">2007</field>
+	<field name="regisseure">&quot;Sean Penn&quot;</field>
+	<field name="laenge">148 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Come and See</field>
+	<field name="jahr">1985</field>
+	<field name="regisseure">&quot;Elem Klimov&quot;</field>
+	<field name="laenge">142 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Gone Girl</field>
+	<field name="jahr">2014</field>
+	<field name="regisseure">&quot;David Fincher&quot;</field>
+	<field name="laenge">149 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Life of Brian</field>
+	<field name="jahr">1979</field>
+	<field name="regisseure">&quot;Terry Jones&quot;</field>
+	<field name="laenge">94 min</field>
+  </row>
+
+  <row>
+	<field name="titel">It Happened One Night</field>
+	<field name="jahr">1934</field>
+	<field name="regisseure">&quot;Frank Capra&quot;</field>
+	<field name="laenge">105 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Hotel Rwanda</field>
+	<field name="jahr">2004</field>
+	<field name="regisseure">&quot;Terry George&quot;</field>
+	<field name="laenge">121 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Munna Bhai M.B.B.S.</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Rajkumar Hirani&quot;</field>
+	<field name="laenge">156 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Shutter Island</field>
+	<field name="jahr">2010</field>
+	<field name="regisseure">&quot;Martin Scorsese&quot;</field>
+	<field name="laenge">138 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Wages of Fear</field>
+	<field name="jahr">1953</field>
+	<field name="regisseure">&quot;Henri-Georges Clouzot&quot;</field>
+	<field name="laenge">131 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Stand by Me</field>
+	<field name="jahr">1986</field>
+	<field name="regisseure">&quot;Rob Reiner&quot;</field>
+	<field name="laenge">89 min</field>
+  </row>
+
+  <row>
+	<field name="titel">In the Name of the Father</field>
+	<field name="jahr">1993</field>
+	<field name="regisseure">&quot;Jim Sheridan&quot;</field>
+	<field name="laenge">133 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Rush</field>
+	<field name="jahr">2013</field>
+	<field name="regisseure">&quot;Ron Howard&quot;</field>
+	<field name="laenge">123 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The 400 Blows</field>
+	<field name="jahr">1959</field>
+	<field name="regisseure">&quot;Fran‡ois Truffaut&quot;</field>
+	<field name="laenge">99 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Sholay</field>
+	<field name="jahr">1975</field>
+	<field name="regisseure">&quot;Ramesh Sippy&quot;</field>
+	<field name="laenge">162 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Mad Max: Fury Road</field>
+	<field name="jahr">2015</field>
+	<field name="regisseure">&quot;George Miller&quot;</field>
+	<field name="laenge">120 min</field>
+  </row>
+
+  <row>
+	<field name="titel">12 Years a Slave</field>
+	<field name="jahr">2013</field>
+	<field name="regisseure">&quot;Steve McQueen&quot;</field>
+	<field name="laenge">134 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Grand Budapest Hotel</field>
+	<field name="jahr">2014</field>
+	<field name="regisseure">&quot;Wes Anderson&quot;</field>
+	<field name="laenge">99 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Hera Pheri</field>
+	<field name="jahr">2000</field>
+	<field name="regisseure">&quot;Priyadarshan&quot;</field>
+	<field name="laenge">156 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Butch Cassidy and the Sundance Kid</field>
+	<field name="jahr">1969</field>
+	<field name="regisseure">&quot;George Roy Hill&quot;</field>
+	<field name="laenge">110 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Persona</field>
+	<field name="jahr">1966</field>
+	<field name="regisseure">&quot;Ingmar Bergman&quot;</field>
+	<field name="laenge">83 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Nights of Cabiria</field>
+	<field name="jahr">1957</field>
+	<field name="regisseure">&quot;Federico Fellini&quot;</field>
+	<field name="laenge">110 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Maltese Falcon</field>
+	<field name="jahr">1941</field>
+	<field name="regisseure">&quot;John Huston&quot;</field>
+	<field name="laenge">100 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Amores Perros</field>
+	<field name="jahr">2000</field>
+	<field name="regisseure">&quot;Alejandro Gonz lez I¤ rritu&quot;</field>
+	<field name="laenge">154 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Jurassic Park</field>
+	<field name="jahr">1993</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">127 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Star Wars: Episode VII - The Force Awakens: The Story Awakens - The Table Read</field>
+	<field name="jahr">2016</field>
+	<field name="regisseure">&quot;N/A&quot;</field>
+	<field name="laenge">4 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Million Dollar Baby</field>
+	<field name="jahr">2004</field>
+	<field name="regisseure">&quot;Clint Eastwood&quot;</field>
+	<field name="laenge">132 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Andaz Apna Apna</field>
+	<field name="jahr">1994</field>
+	<field name="regisseure">&quot;Rajkumar Santoshi&quot;</field>
+	<field name="laenge">160 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Before Sunrise</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Richard Linklater&quot;</field>
+	<field name="laenge">101 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Truman Show</field>
+	<field name="jahr">1998</field>
+	<field name="regisseure">&quot;Peter Weir&quot;</field>
+	<field name="laenge">103 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Nausica„ of the Valley of the Wind</field>
+	<field name="jahr">1984</field>
+	<field name="regisseure">&quot;Hayao Miyazaki&quot;</field>
+	<field name="laenge">117 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Princess Bride</field>
+	<field name="jahr">1987</field>
+	<field name="regisseure">&quot;Rob Reiner&quot;</field>
+	<field name="laenge">98 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Grapes of Wrath</field>
+	<field name="jahr">1940</field>
+	<field name="regisseure">&quot;John Ford&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Rocky</field>
+	<field name="jahr">1976</field>
+	<field name="regisseure">&quot;John G. Avildsen&quot;</field>
+	<field name="laenge">120 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Touch of Evil</field>
+	<field name="jahr">1958</field>
+	<field name="regisseure">&quot;Orson Welles&quot;</field>
+	<field name="laenge">95 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Harry Potter and the Deathly Hallows: Part 2</field>
+	<field name="jahr">2011</field>
+	<field name="regisseure">&quot;David Yates&quot;</field>
+	<field name="laenge">130 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Annie Hall</field>
+	<field name="jahr">1977</field>
+	<field name="regisseure">&quot;Woody Allen&quot;</field>
+	<field name="laenge">93 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Diabolique</field>
+	<field name="jahr">1955</field>
+	<field name="regisseure">&quot;Henri-Georges Clouzot&quot;</field>
+	<field name="laenge">117 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Donnie Darko</field>
+	<field name="jahr">2001</field>
+	<field name="regisseure">&quot;Richard Kelly&quot;</field>
+	<field name="laenge">113 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Get Out</field>
+	<field name="jahr">2017</field>
+	<field name="regisseure">&quot;Jordan Peele&quot;</field>
+	<field name="laenge">104 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Bourne Ultimatum</field>
+	<field name="jahr">2007</field>
+	<field name="regisseure">&quot;Paul Greengrass&quot;</field>
+	<field name="laenge">115 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Monsters, Inc.</field>
+	<field name="jahr">2001</field>
+	<field name="regisseure">&quot;David Silverman;Lee Unkrich;Pete Docter&quot;</field>
+	<field name="laenge">92 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Catch Me If You Can</field>
+	<field name="jahr">2002</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">141 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Terminator</field>
+	<field name="jahr">1984</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="laenge">107 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Wizard of Oz</field>
+	<field name="jahr">1939</field>
+	<field name="regisseure">&quot;George Cukor;King Vidor;Mervyn LeRoy;Norman Taurog;Victor Fleming&quot;</field>
+	<field name="laenge">102 min</field>
+  </row>
+
+  <row>
+	<field name="titel">8«</field>
+	<field name="jahr">1963</field>
+	<field name="regisseure">&quot;Federico Fellini&quot;</field>
+	<field name="laenge">138 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Twelve Monkeys</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Terry Gilliam&quot;</field>
+	<field name="laenge">129 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Groundhog Day</field>
+	<field name="jahr">1993</field>
+	<field name="regisseure">&quot;Harold Ramis&quot;</field>
+	<field name="laenge">101 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Barry Lyndon</field>
+	<field name="jahr">1975</field>
+	<field name="regisseure">&quot;Stanley Kubrick&quot;</field>
+	<field name="laenge">184 min</field>
+  </row>
+
+  <row>
+	<field name="titel">La Haine</field>
+	<field name="jahr">1995</field>
+	<field name="regisseure">&quot;Mathieu Kassovitz&quot;</field>
+	<field name="laenge">98 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Jaws</field>
+	<field name="jahr">1975</field>
+	<field name="regisseure">&quot;Steven Spielberg&quot;</field>
+	<field name="laenge">124 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Best Years of Our Lives</field>
+	<field name="jahr">1946</field>
+	<field name="regisseure">&quot;William Wyler&quot;</field>
+	<field name="laenge">172 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Infernal Affairs</field>
+	<field name="jahr">2002</field>
+	<field name="regisseure">&quot;Alan Mak;Wai-Keung Lau&quot;</field>
+	<field name="laenge">101 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Zootopia</field>
+	<field name="jahr">2016</field>
+	<field name="regisseure">&quot;Byron Howard;Jared Bush;Rich Moore&quot;</field>
+	<field name="laenge">108 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Gangs of Wasseypur</field>
+	<field name="jahr">2012</field>
+	<field name="regisseure">&quot;Anurag Kashyap&quot;</field>
+	<field name="laenge">320 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Dog Day Afternoon</field>
+	<field name="jahr">1975</field>
+	<field name="regisseure">&quot;Sidney Lumet&quot;</field>
+	<field name="laenge">125 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Battle of Algiers</field>
+	<field name="jahr">1966</field>
+	<field name="regisseure">&quot;Gillo Pontecorvo&quot;</field>
+	<field name="laenge">121 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Message</field>
+	<field name="jahr">1976</field>
+	<field name="regisseure">&quot;Moustapha Akkad&quot;</field>
+	<field name="laenge">177 min</field>
+  </row>
+
+  <row>
+	<field name="titel">The Help</field>
+	<field name="jahr">2011</field>
+	<field name="regisseure">&quot;Tate Taylor&quot;</field>
+	<field name="laenge">146 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Pirates of the Caribbean: The Curse of the Black Pearl</field>
+	<field name="jahr">2003</field>
+	<field name="regisseure">&quot;Gore Verbinski&quot;</field>
+	<field name="laenge">143 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Beauty and the Beast</field>
+	<field name="jahr">1991</field>
+	<field name="regisseure">&quot;Gary Trousdale;Kirk Wise&quot;</field>
+	<field name="laenge">84 min</field>
+  </row>
+
+  <row>
+	<field name="titel">What Ever Happened to Baby Jane?</field>
+	<field name="jahr">1962</field>
+	<field name="regisseure">&quot;Robert Aldrich&quot;</field>
+	<field name="laenge">134 min</field>
+  </row>
+
+  <row>
+	<field name="titel">Strangers on a Train</field>
+	<field name="jahr">1951</field>
+	<field name="regisseure">&quot;Alfred Hitchcock&quot;</field>
+	<field name="laenge">101 min</field>
+  </row>
+</resultset>

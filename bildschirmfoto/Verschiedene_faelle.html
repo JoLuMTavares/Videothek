@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+			
+		<title>
+		DDL-Befehle
+		</title>
+		<meta charset=""utf8">
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			
+			h1{
+				text-align: center;
+				background-color: gold;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<h1>Daten Entnahme</h1>
+		<h2>Seite 6 - Mahnung. Rechnung u.s.w. </h2>
+		<h3>Direkt SQL Befehle an der Eingabeaufforderung</h3>
+		<hr>
+			<header>			
+				<nav style="background-color: orange">
+					<a href="../index.html">Home</a>
+					<a href="ddl_dml_befehle.html">DDL und DML</a>
+					<a href="regisseure.html">Regisseure Befehle</a>
+					<a href="schauspieler.html">Schauspieler Befehle</a>
+					<a href="genres.html">Genres Befehle</a>
+					<a href="genre_schauspieler.html">Genre und Schauspieler</a>
+					<a href="Verschiedene_faelle.html">Verschiedene Fälle</a>
+					<a href="sql_skript.html">SQL Skript</a>
+					<a href="diagram.html">Diagram</a>
+				</nav>	
+			</header>
+			<div>
+				<hr>
+				<pre>
+					<samp>
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id AND k
+				unde.id = rechnung.id" » c:\xampp\htdocs\dsql\videothek\mahn_rech.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT * FROM kunde JOIN mahnung JOIN rechnung WHERE kunde.id = mahnung.kunde_id A
+				ND kunde.id = rechnung.id;" » c:\xampp\htdocs\dsql\videothek\mahn_rech.html
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 titel,jahr, regisseure, laenge FROM filmen JOIN platten WHERE filmen.id = platt
+				en.filme_id AND platten.miete_status = 'available'" » c:\xampp\htdocs\dsql\video
+				thek\freifilmen.xml
+
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN plat
+				te_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte
+				_id ORDER BY platte_kunde.platte_id DESC LIMIT 10" » c:\xampp\htdocs\dsql\videot
+				hek\beste.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN
+				platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.pl
+				atte_id ORDER BY platte_kunde.platte_id DESC LIMIT 10" » c:\xampp\htdocs\dsql\vi
+				deothek\beste.html
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root -X -e "SELECT
+				 titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN plat
+				te_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.platte
+				_id ORDER BY platte_kunde.platte_id ASC LIMIT 10" » c:\xampp\htdocs\dsql\videoth
+				ek\schlimmste.xml
+
+				C:\Users\J. Tavares>c:\xampp\mysql\bin\mysql.exe videothek -u root --html -e "SE
+				LECT titel,jahr, regisseure, laenge, schauspieler FROM filmen JOIN platten JOIN
+				platte_kunde WHERE filmen.id = platten.filme_id AND platten.id = platte_kunde.pl
+				atte_id ORDER BY platte_kunde.platte_id ASC LIMIT 10" » c:\xampp\htdocs\dsql\vid
+				eothek\schlimmste.html
+
+				C:\Users\J. Tavares>
+					</samp>
+				</pre>
+				<hr>
+			</div>
+			<aside>
+				Hier sehen sie vershiedenen SQL Befehle. Diese Befehle sind für verschiedene Fälle.<br/>
+				Wir haben ein Befehl für alle kunden, dass eine Mahnung und eine Rechnung erhalten haben.
+				Dann haben wir ein Befehl für frei filmen. Das heißt, filmen, dass eine kunde mieten kann.
+				Wir haben auch Befehle für meisten geliehene Filme und die Filme, die nie geliehen worden.
+				Anlegen wir immer eine xml und eine html daten.<br/><br/>
+				ACHTUNG!<br/>
+				Das » signal ist ein Ersatz für das original kleiner signal.
+				Mit das original gibt es hier koflikt mit html kode.			  
+			</aside>
+			<footer>
+				<br />
+				<a id="fLink" href="../kontakt.html">Kontakt</a>
+				<a id="fLink" href="../cpright.html">&#169; Copyright</a>
+				<a id="fLink" href="../feedback.html">Feedback</a>
+			</footer>
+	</body>
+</html>

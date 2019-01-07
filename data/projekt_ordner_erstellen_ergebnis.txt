@@ -1,0 +1,13 @@
+REM Alle ordner erstellung
+
+C:\Users\J. Tavares>projekt_ordner_erstellen
+
+C:\Users\J. Tavares>cd c:\xampp\htdocs\dsql
+
+c:\xampp\htdocs\dsql>mkdir videothek
+
+c:\xampp\htdocs\dsql>cd videothek
+
+c:\xampp\htdocs\dsql\videothek>mkdir data bilder xslt css javascript
+
+c:\xampp\htdocs\dsql\videothek>
