@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="regisseure.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE regisseure LIKE '%Francis Ford Coppola%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regisseure.xsd">
+  <row>
+	<field name="id">3</field>
+	<field name="titel">The Godfather</field>
+	<field name="jahr">1972</field>
+	<field name="laenge">175 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;James Caan;Marlon Brando;Richard S. Castellano&quot;</field>
+	<field name="plot">&quot;The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0068646</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="titel">The Godfather: Part II</field>
+	<field name="jahr">1974</field>
+	<field name="laenge">202 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;Diane Keaton;Robert De Niro;Robert Duvall&quot;</field>
+	<field name="plot">&quot;The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on the family crime syndicate.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin;Sicilian;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0071562</field>
+  </row>
+
+  <row>
+	<field name="id">42</field>
+	<field name="titel">Apocalypse Now</field>
+	<field name="jahr">1979</field>
+	<field name="laenge">153 min</field>
+	<field name="genres">&quot;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Frederic Forrest;Marlon Brando;Martin Sheen;Robert Duvall&quot;</field>
+	<field name="plot">&quot;During the Vietnam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.&quot;</field>
+	<field name="sprache">&quot;English;French;Vietnamese&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODViM2VjYWYtMzU5Ny00ZjczLWEzNjMtODZmNGMwZDAxNzJkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0078788</field>
+  </row>
+</resultset>

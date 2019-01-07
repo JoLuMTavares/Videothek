@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="regisseure.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE regisseure LIKE '%Quentin Tarantino%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regisseure.xsd">
+  <row>
+	<field name="id">8</field>
+	<field name="titel">Pulp Fiction</field>
+	<field name="jahr">1994</field>
+	<field name="laenge">154 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Amanda Plummer;John Travolta;Laura Lovelace;Tim Roth&quot;</field>
+	<field name="plot">&quot;The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.&quot;</field>
+	<field name="sprache">&quot;English;French;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0110912</field>
+  </row>
+
+  <row>
+	<field name="id">51</field>
+	<field name="titel">Django Unchained</field>
+	<field name="jahr">2012</field>
+	<field name="laenge">165 min</field>
+	<field name="genres">&quot;Drama;Western&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Christoph Waltz;Jamie Foxx;Kerry Washington;Leonardo DiCaprio&quot;</field>
+	<field name="plot">&quot;With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.&quot;</field>
+	<field name="sprache">&quot;English;French;German;Italian&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt1853728</field>
+  </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="titel">Reservoir Dogs</field>
+	<field name="jahr">1992</field>
+	<field name="laenge">99 min</field>
+	<field name="genres">&quot;Crime;Drama;Thriller&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Chris Penn;Harvey Keitel;Michael Madsen;Tim Roth&quot;</field>
+	<field name="plot">&quot;After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNDc0YWFhMmQtOTFhZC00MzViLTlkNjctMWUzYTI2YWFkNzVlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0105236</field>
+  </row>
+
+  <row>
+	<field name="id">78</field>
+	<field name="titel">Inglourious Basterds</field>
+	<field name="jahr">2009</field>
+	<field name="laenge">153 min</field>
+	<field name="genres">&quot;Adventure;Drama;War&quot;</field>
+	<field name="regisseure">&quot;Eli Roth;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Brad Pitt;Christoph Waltz;Eli Roth;M‚lanie Laurent&quot;</field>
+	<field name="plot">&quot;In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.&quot;</field>
+	<field name="sprache">&quot;English;French;German;Italian&quot;</field>
+	<field name="laender">&quot;Germany;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0361748</field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="titel">Kill Bill: Vol. 1</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">111 min</field>
+	<field name="genres">&quot;Action;Crime;Thriller&quot;</field>
+	<field name="regisseure">&quot;Quentin Tarantino&quot;</field>
+	<field name="schauspieler">&quot;Daryl Hannah;Lucy Liu;Uma Thurman;Vivica A. Fox&quot;</field>
+	<field name="plot">&quot;The Bride wakens from a four-year coma. The child she carried in her womb is gone. Now she must wreak vengeance on the team of assassins who betrayed her - a team she was once part of.&quot;</field>
+	<field name="sprache">&quot;English;French;Japanese&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_SX300.jpg</field>
+	<field name="imdbID">tt0266697</field>
+  </row>
+</resultset>

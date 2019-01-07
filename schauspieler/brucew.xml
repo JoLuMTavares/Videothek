@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Schauspieler.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE schauspieler LIKE '%Bruce Willis%'
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schauspieler.xsd">
+  <row>
+	<field name="id">92</field>
+	<field name="titel">Die Hard</field>
+	<field name="jahr">1988</field>
+	<field name="laenge">131 min</field>
+	<field name="genres">&quot;Action;Thriller&quot;</field>
+	<field name="regisseure">&quot;John McTiernan&quot;</field>
+	<field name="schauspieler">&quot;Bonnie Bedelia;Bruce Willis;Paul Gleason;Reginald VelJohnson&quot;</field>
+	<field name="plot">&quot;John McClane, officer of the NYPD, tries to save his wife Holly Gennaro and several others that were taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles.&quot;</field>
+	<field name="sprache">&quot;English;German;Italian&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMzNmY2IwYzAtNDQ1NC00MmI4LThkOTgtZmVhYmExOTVhMWRkXkEyXkFqcGdeQXVyMTk5NDA3Nw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0095016</field>
+  </row>
+
+  <row>
+	<field name="id">131</field>
+	<field name="titel">The Sixth Sense</field>
+	<field name="jahr">1999</field>
+	<field name="laenge">107 min</field>
+	<field name="genres">&quot;Drama;Mystery;Thriller&quot;</field>
+	<field name="regisseure">&quot;M. Night Shyamalan&quot;</field>
+	<field name="schauspieler">&quot;Bruce Willis;Haley Joel Osment;Olivia Williams;Toni Collette&quot;</field>
+	<field name="plot">&quot;A boy who communicates with spirits that don't know they're dead seeks the help of a disheartened child psychologist.&quot;</field>
+	<field name="sprache">&quot;English;Latin;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0167404</field>
+  </row>
+
+  <row>
+	<field name="id">186</field>
+	<field name="titel">Twelve Monkeys</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">129 min</field>
+	<field name="genres">&quot;Mystery;Sci-Fi;Thriller&quot;</field>
+	<field name="regisseure">&quot;Terry Gilliam&quot;</field>
+	<field name="schauspieler">&quot;Bruce Willis;Jon Seda;Joseph Melito;Michael Chance&quot;</field>
+	<field name="plot">&quot;In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.&quot;</field>
+	<field name="sprache">&quot;English;French&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0114746</field>
+  </row>
+</resultset>

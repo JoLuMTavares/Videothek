@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Schauspieler.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE schauspieler LIKE '%Al Pacino%'
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schauspieler.xsd">
+  <row>
+	<field name="id">3</field>
+	<field name="titel">The Godfather</field>
+	<field name="jahr">1972</field>
+	<field name="laenge">175 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;James Caan;Marlon Brando;Richard S. Castellano&quot;</field>
+	<field name="plot">&quot;The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZTRmNjQ1ZDYtNDgzMy00OGE0LWE4N2YtNTkzNWQ5ZDhlNGJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0068646</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="titel">The Godfather: Part II</field>
+	<field name="jahr">1974</field>
+	<field name="laenge">202 min</field>
+	<field name="genres">&quot;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Francis Ford Coppola&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;Diane Keaton;Robert De Niro;Robert Duvall&quot;</field>
+	<field name="plot">&quot;The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on the family crime syndicate.&quot;</field>
+	<field name="sprache">&quot;English;Italian;Latin;Sicilian;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0071562</field>
+  </row>
+
+  <row>
+	<field name="id">97</field>
+	<field name="titel">Heat</field>
+	<field name="jahr">1995</field>
+	<field name="laenge">170 min</field>
+	<field name="genres">&quot;Action;Crime;Drama&quot;</field>
+	<field name="regisseure">&quot;Michael Mann&quot;</field>
+	<field name="schauspieler">&quot;Al Pacino;Jon Voight;Robert De Niro;Val Kilmer&quot;</field>
+	<field name="plot">&quot;A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNGMwNzUwNjYtZWM5NS00YzMyLWI4NjAtNjM0ZDBiMzE1YWExXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0113277</field>
+  </row>
+</resultset>

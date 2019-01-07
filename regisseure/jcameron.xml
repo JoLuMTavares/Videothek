@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="regisseure.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE regisseure LIKE '%James Cameron%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regisseure.xsd">
+  <row>
+	<field name="id">40</field>
+	<field name="titel">Terminator 2: Judgment Day</field>
+	<field name="jahr">1991</field>
+	<field name="laenge">137 min</field>
+	<field name="genres">&quot;Action;Sci-Fi;Thriller&quot;</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="schauspieler">&quot;Arnold Schwarzenegger;Edward Furlong;Linda Hamilton;Robert Patrick&quot;</field>
+	<field name="plot">&quot;A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced cyborg.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;France;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BZDM2YjYwYWMtMWZlNi00ZDQxLWExMDctMDAzNzQ0OTkzZjljXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0103064</field>
+  </row>
+
+  <row>
+	<field name="id">56</field>
+	<field name="titel">Aliens</field>
+	<field name="jahr">1986</field>
+	<field name="laenge">137 min</field>
+	<field name="genres">&quot;Action;Adventure;Sci-Fi&quot;</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="schauspieler">&quot;Carrie Henn;Michael Biehn;Paul Reiser;Sigourney Weaver&quot;</field>
+	<field name="plot">&quot;The moon from Alien (1979) has been colonized, but contact is lost. This time, the rescue team has impressive firepower, but will it be enough?&quot;</field>
+	<field name="sprache">&quot;English&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNGYxMTA0M2EtYjg0Yy00NzI5LTg4NjEtZDA2MTcyOWM0YTVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0090605</field>
+  </row>
+
+  <row>
+	<field name="id">183</field>
+	<field name="titel">The Terminator</field>
+	<field name="jahr">1984</field>
+	<field name="laenge">107 min</field>
+	<field name="genres">&quot;Action;Sci-Fi&quot;</field>
+	<field name="regisseure">&quot;James Cameron&quot;</field>
+	<field name="schauspieler">&quot;Arnold Schwarzenegger;Linda Hamilton;Michael Biehn;Paul Winfield&quot;</field>
+	<field name="plot">&quot;A seemingly indestructible humanoid cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.&quot;</field>
+	<field name="sprache">&quot;English;Spanish&quot;</field>
+	<field name="laender">&quot;UK;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BODE1MDczNTUxOV5BMl5BanBnXkFtZTcwMTA0NDQyNA@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0088247</field>
+  </row>
+</resultset>

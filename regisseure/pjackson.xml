@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="regisseure.xslt"?>
+<resultset statement="SELECT * FROM filmen WHERE regisseure LIKE '%Peter Jackson%'"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="regisseure.xsd">
+  <row>
+	<field name="id">9</field>
+	<field name="titel">The Lord of the Rings: The Return of the King</field>
+	<field name="jahr">2003</field>
+	<field name="laenge">201 min</field>
+	<field name="genres">&quot;Adventure;Drama;Fantasy&quot;</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="schauspieler">&quot;Ali Astin;David Aston;Noel Appleby;Sean Astin&quot;</field>
+	<field name="plot">&quot;Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.&quot;</field>
+	<field name="sprache">&quot;English;Old English;Quenya;Sindarin&quot;</field>
+	<field name="laender">&quot;New Zealand;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0167260</field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="titel">The Lord of the Rings: The Fellowship of the Ring</field>
+	<field name="jahr">2001</field>
+	<field name="laenge">178 min</field>
+	<field name="genres">&quot;Adventure;Drama;Fantasy&quot;</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="schauspieler">&quot;Alan Howard;Noel Appleby;Sala Baker;Sean Astin&quot;</field>
+	<field name="plot">&quot;A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron.&quot;</field>
+	<field name="sprache">&quot;English;Sindarin&quot;</field>
+	<field name="laender">&quot;New Zealand;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BNmFmZDdkODMtNzUyMy00NzhhLWFjZmEtMGMzYjNhMDA1NTBkXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0120737</field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="titel">The Lord of the Rings: The Two Towers</field>
+	<field name="jahr">2002</field>
+	<field name="laenge">179 min</field>
+	<field name="genres">&quot;Adventure;Drama;Fantasy&quot;</field>
+	<field name="regisseure">&quot;Peter Jackson&quot;</field>
+	<field name="schauspieler">&quot;Bruce Allpress;John Bach;Sala Baker;Sean Astin&quot;</field>
+	<field name="plot">&quot;While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.&quot;</field>
+	<field name="sprache">&quot;English;Old English;Sindarin&quot;</field>
+	<field name="laender">&quot;New Zealand;USA&quot;</field>
+	<field name="plakat_url|">https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNDU0NjY4NTheQTJeQWpwZ15BbWU2MDk4MTY2Nw@@._V1_SX300.jpg</field>
+	<field name="imdbID">tt0167261</field>
+  </row>
+</resultset>
